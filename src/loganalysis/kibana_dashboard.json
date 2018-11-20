@@ -1,0 +1,1956 @@
+[
+  {
+    "_id": "51d00230-35ec-11e7-9ce3-292960a8b5d2",
+    "_type": "dashboard",
+    "_source": {
+      "title": "ngx1-135日志分析筛检图",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"col\":1,\"id\":\"b20be480-35eb-11e7-9ce3-292960a8b5d2\",\"panelIndex\":4,\"row\":1,\"size_x\":6,\"size_y\":4,\"type\":\"visualization\"},{\"col\":7,\"id\":\"e305e310-35eb-11e7-9ce3-292960a8b5d2\",\"panelIndex\":5,\"row\":1,\"size_x\":6,\"size_y\":4,\"type\":\"visualization\"},{\"col\":7,\"id\":\"fcbed8a0-35e8-11e7-9ce3-292960a8b5d2\",\"panelIndex\":6,\"row\":5,\"size_x\":6,\"size_y\":4,\"type\":\"visualization\"},{\"col\":1,\"id\":\"a3fbcdd0-35e9-11e7-9ce3-292960a8b5d2\",\"panelIndex\":7,\"row\":13,\"size_x\":6,\"size_y\":4,\"type\":\"visualization\"},{\"col\":7,\"id\":\"527c1620-35eb-11e7-9ce3-292960a8b5d2\",\"panelIndex\":8,\"row\":9,\"size_x\":6,\"size_y\":4,\"type\":\"visualization\"},{\"col\":1,\"id\":\"e3a08bf0-3568-11e7-ac16-1f559e2035bf\",\"panelIndex\":9,\"row\":5,\"size_x\":6,\"size_y\":4,\"type\":\"visualization\"},{\"col\":7,\"id\":\"3161d180-3566-11e7-ac16-1f559e2035bf\",\"panelIndex\":10,\"row\":13,\"size_x\":6,\"size_y\":4,\"type\":\"visualization\"},{\"col\":7,\"id\":\"ca23ce50-3566-11e7-ac16-1f559e2035bf\",\"panelIndex\":11,\"row\":17,\"size_x\":6,\"size_y\":4,\"type\":\"visualization\"},{\"col\":1,\"id\":\"130578e0-35e8-11e7-9ce3-292960a8b5d2\",\"panelIndex\":12,\"row\":21,\"size_x\":12,\"size_y\":3,\"type\":\"visualization\"},{\"col\":1,\"id\":\"f902ab80-355a-11e7-97c2-41b01895d5b1\",\"panelIndex\":13,\"row\":17,\"size_x\":6,\"size_y\":4,\"type\":\"visualization\"},{\"col\":1,\"id\":\"13730c60-3567-11e7-ac16-1f559e2035bf\",\"panelIndex\":14,\"row\":9,\"size_x\":6,\"size_y\":4,\"type\":\"visualization\"},{\"col\":1,\"id\":\"8ab3e660-35e8-11e7-9ce3-292960a8b5d2\",\"panelIndex\":15,\"row\":24,\"size_x\":12,\"size_y\":4,\"type\":\"visualization\"},{\"col\":1,\"id\":\"d574dce0-35e8-11e7-9ce3-292960a8b5d2\",\"panelIndex\":16,\"row\":31,\"size_x\":12,\"size_y\":3,\"type\":\"visualization\"}]",
+      "optionsJSON": "{\"darkTheme\":false}",
+      "uiStateJSON": "{\"P-10\":{\"mapCenter\":[36.87962060502676,111.796875],\"mapZoom\":3},\"P-11\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}},\"P-12\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}},\"P-15\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}},\"P-16\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}},\"P-7\":{\"vis\":{\"legendOpen\":false}},\"P-8\":{\"vis\":{\"defaultColors\":{\"0 - 520000\":\"rgb(247,252,245)\",\"520000 - 1040000\":\"rgb(211,238,205)\",\"1040000 - 1560000\":\"rgb(152,213,148)\",\"1560000 - 2080000\":\"rgb(75,176,98)\",\"2080000 - 2600000\":\"rgb(21,127,59)\"}}},\"P-9\":{\"vis\":{\"legendOpen\":false}}}",
+      "version": 1,
+      "timeRestore": false,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[{\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"*\"}}}]}"
+      }
+    }
+  },
+  {
+    "_id": "51d00230-35ec-11e7-9ce3-292960a8b562",
+    "_type": "dashboard",
+    "_source": {
+      "title": "ngx3-62日志分析筛检图",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"col\":1,\"id\":\"b20be480-35eb-11e7-9ce3-292960a8b562\",\"panelIndex\":4,\"row\":1,\"size_x\":6,\"size_y\":4,\"type\":\"visualization\"},{\"col\":7,\"id\":\"e305e310-35eb-11e7-9ce3-292960a8b562\",\"panelIndex\":5,\"row\":1,\"size_x\":6,\"size_y\":4,\"type\":\"visualization\"},{\"col\":7,\"id\":\"fcbed8a0-35e8-11e7-9ce3-292960a8b562\",\"panelIndex\":6,\"row\":5,\"size_x\":6,\"size_y\":4,\"type\":\"visualization\"},{\"col\":1,\"id\":\"a3fbcdd0-35e9-11e7-9ce3-292960a8b562\",\"panelIndex\":7,\"row\":13,\"size_x\":6,\"size_y\":4,\"type\":\"visualization\"},{\"col\":7,\"id\":\"527c1620-35eb-11e7-9ce3-292960a8b562\",\"panelIndex\":8,\"row\":9,\"size_x\":6,\"size_y\":4,\"type\":\"visualization\"},{\"col\":1,\"id\":\"e3a08bf0-3568-11e7-ac16-1f559e203562\",\"panelIndex\":9,\"row\":5,\"size_x\":6,\"size_y\":4,\"type\":\"visualization\"},{\"col\":7,\"id\":\"3161d180-3566-11e7-ac16-1f559e203562\",\"panelIndex\":10,\"row\":13,\"size_x\":6,\"size_y\":4,\"type\":\"visualization\"},{\"col\":7,\"id\":\"ca23ce50-3566-11e7-ac16-1f559e203562\",\"panelIndex\":11,\"row\":17,\"size_x\":6,\"size_y\":4,\"type\":\"visualization\"},{\"col\":1,\"id\":\"130578e0-35e8-11e7-9ce3-292960a8b562\",\"panelIndex\":12,\"row\":21,\"size_x\":12,\"size_y\":3,\"type\":\"visualization\"},{\"col\":1,\"id\":\"f902ab80-355a-11e7-97c2-41b01895d562\",\"panelIndex\":13,\"row\":17,\"size_x\":6,\"size_y\":4,\"type\":\"visualization\"},{\"col\":1,\"id\":\"13730c60-3567-11e7-ac16-1f559e203562\",\"panelIndex\":14,\"row\":9,\"size_x\":6,\"size_y\":4,\"type\":\"visualization\"},{\"col\":1,\"id\":\"8ab3e660-35e8-11e7-9ce3-292960a8b562\",\"panelIndex\":15,\"row\":24,\"size_x\":12,\"size_y\":3,\"type\":\"visualization\"},{\"col\":1,\"id\":\"d574dce0-35e8-11e7-9ce3-292960a8b562\",\"panelIndex\":16,\"row\":27,\"size_x\":12,\"size_y\":3,\"type\":\"visualization\"}]",
+      "optionsJSON": "{\"darkTheme\":false}",
+      "uiStateJSON": "{\"P-10\":{\"mapCenter\":[36.87962060502676,111.796875],\"mapZoom\":3},\"P-11\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}},\"P-12\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}},\"P-15\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}},\"P-16\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}},\"P-7\":{\"vis\":{\"legendOpen\":false}},\"P-8\":{\"vis\":{\"defaultColors\":{\"0 - 320000\":\"rgb(247,252,245)\",\"320000 - 640000\":\"rgb(211,238,205)\",\"640000 - 960000\":\"rgb(152,213,148)\",\"960000 - 1280000\":\"rgb(75,176,98)\",\"1280000 - 1600000\":\"rgb(21,127,59)\"}}},\"P-9\":{\"vis\":{\"legendOpen\":false}}}",
+      "version": 1,
+      "timeRestore": false,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[{\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"*\"}}}]}"
+      }
+    }
+  },
+  {
+    "_id": "51d00230-35ec-11e7-9ce3-292960a8b598",
+    "_type": "dashboard",
+    "_source": {
+      "title": "ngx2-98日志分析筛检图",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"col\":1,\"id\":\"b20be480-35eb-11e7-9ce3-292960a8b598\",\"panelIndex\":1,\"row\":1,\"size_x\":6,\"size_y\":4,\"type\":\"visualization\"},{\"col\":7,\"id\":\"e305e310-35eb-11e7-9ce3-292960a8b598\",\"panelIndex\":2,\"row\":1,\"size_x\":6,\"size_y\":4,\"type\":\"visualization\"},{\"col\":7,\"id\":\"fcbed8a0-35e8-11e7-9ce3-292960a8b598\",\"panelIndex\":3,\"row\":5,\"size_x\":6,\"size_y\":4,\"type\":\"visualization\"},{\"col\":1,\"id\":\"a3fbcdd0-35e9-11e7-9ce3-292960a8b598\",\"panelIndex\":4,\"row\":13,\"size_x\":6,\"size_y\":5,\"type\":\"visualization\"},{\"col\":7,\"id\":\"527c1620-35eb-11e7-9ce3-292960a8b598\",\"panelIndex\":5,\"row\":9,\"size_x\":6,\"size_y\":4,\"type\":\"visualization\"},{\"col\":1,\"id\":\"f902ab80-355a-11e7-97c2-41b01895d598\",\"panelIndex\":6,\"row\":18,\"size_x\":6,\"size_y\":4,\"type\":\"visualization\"},{\"col\":1,\"id\":\"13730c60-3567-11e7-ac16-1f559e203598\",\"panelIndex\":7,\"row\":9,\"size_x\":6,\"size_y\":4,\"type\":\"visualization\"},{\"col\":1,\"id\":\"e3a08bf0-3568-11e7-ac16-1f559e203598\",\"panelIndex\":8,\"row\":5,\"size_x\":6,\"size_y\":4,\"type\":\"visualization\"},{\"col\":7,\"id\":\"3161d180-3566-11e7-ac16-1f559e203598\",\"panelIndex\":9,\"row\":13,\"size_x\":6,\"size_y\":5,\"type\":\"visualization\"},{\"col\":7,\"id\":\"ca23ce50-3566-11e7-ac16-1f559e203598\",\"panelIndex\":10,\"row\":18,\"size_x\":6,\"size_y\":4,\"type\":\"visualization\"},{\"col\":1,\"id\":\"130578e0-35e8-11e7-9ce3-292960a8b598\",\"panelIndex\":11,\"row\":22,\"size_x\":12,\"size_y\":3,\"type\":\"visualization\"},{\"col\":1,\"id\":\"8ab3e660-35e8-11e7-9ce3-292960a8b598\",\"panelIndex\":12,\"row\":25,\"size_x\":12,\"size_y\":3,\"type\":\"visualization\"},{\"col\":1,\"id\":\"d574dce0-35e8-11e7-9ce3-292960a8b598\",\"panelIndex\":13,\"row\":28,\"size_x\":12,\"size_y\":3,\"type\":\"visualization\"}]",
+      "optionsJSON": "{\"darkTheme\":false}",
+      "uiStateJSON": "{\"P-10\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}},\"P-11\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}},\"P-12\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}},\"P-13\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}},\"P-4\":{\"vis\":{\"legendOpen\":false}},\"P-5\":{\"vis\":{\"defaultColors\":{\"0 - 900000\":\"rgb(247,252,245)\",\"900000 - 1800000\":\"rgb(211,238,205)\",\"1800000 - 2700000\":\"rgb(152,213,148)\",\"2700000 - 3600000\":\"rgb(75,176,98)\",\"3600000 - 4500000\":\"rgb(21,127,59)\"}}},\"P-9\":{\"mapCenter\":[37.020098201368114,112.587890625],\"mapZoom\":3},\"P-8\":{\"vis\":{\"legendOpen\":false}}}",
+      "version": 1,
+      "timeRestore": false,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[{\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"*\"}}}]}"
+      }
+    }
+  },
+  {
+    "_id": "51d00230-35ec-11e7-9ce3-292960a8b541",
+    "_type": "dashboard",
+    "_source": {
+      "title": "ngx5-141日志分析筛检图",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"col\":1,\"id\":\"b20be480-35eb-11e7-9ce3-292960a8b541\",\"panelIndex\":4,\"row\":1,\"size_x\":6,\"size_y\":4,\"type\":\"visualization\"},{\"col\":7,\"id\":\"e305e310-35eb-11e7-9ce3-292960a8b541\",\"panelIndex\":5,\"row\":1,\"size_x\":6,\"size_y\":4,\"type\":\"visualization\"},{\"col\":7,\"id\":\"fcbed8a0-35e8-11e7-9ce3-292960a8b541\",\"panelIndex\":6,\"row\":5,\"size_x\":6,\"size_y\":4,\"type\":\"visualization\"},{\"col\":1,\"id\":\"a3fbcdd0-35e9-11e7-9ce3-292960a8b541\",\"panelIndex\":7,\"row\":13,\"size_x\":6,\"size_y\":4,\"type\":\"visualization\"},{\"col\":7,\"id\":\"527c1620-35eb-11e7-9ce3-292960a8b541\",\"panelIndex\":8,\"row\":9,\"size_x\":6,\"size_y\":4,\"type\":\"visualization\"},{\"col\":1,\"id\":\"e3a08bf0-3568-11e7-ac16-1f559e203541\",\"panelIndex\":9,\"row\":5,\"size_x\":6,\"size_y\":4,\"type\":\"visualization\"},{\"col\":7,\"id\":\"3161d180-3566-11e7-ac16-1f559e203541\",\"panelIndex\":10,\"row\":13,\"size_x\":6,\"size_y\":4,\"type\":\"visualization\"},{\"col\":7,\"id\":\"ca23ce50-3566-11e7-ac16-1f559e203541\",\"panelIndex\":11,\"row\":17,\"size_x\":6,\"size_y\":4,\"type\":\"visualization\"},{\"col\":1,\"id\":\"130578e0-35e8-11e7-9ce3-292960a8b541\",\"panelIndex\":12,\"row\":21,\"size_x\":12,\"size_y\":3,\"type\":\"visualization\"},{\"col\":1,\"id\":\"f902ab80-355a-11e7-97c2-41b01895d541\",\"panelIndex\":13,\"row\":17,\"size_x\":6,\"size_y\":4,\"type\":\"visualization\"},{\"col\":1,\"id\":\"13730c60-3567-11e7-ac16-1f559e203541\",\"panelIndex\":14,\"row\":9,\"size_x\":6,\"size_y\":4,\"type\":\"visualization\"},{\"col\":1,\"id\":\"8ab3e660-35e8-11e7-9ce3-292960a8b541\",\"panelIndex\":15,\"row\":24,\"size_x\":12,\"size_y\":3,\"type\":\"visualization\"},{\"col\":1,\"id\":\"d574dce0-35e8-11e7-9ce3-292960a8b541\",\"panelIndex\":16,\"row\":27,\"size_x\":12,\"size_y\":3,\"type\":\"visualization\"}]",
+      "optionsJSON": "{\"darkTheme\":false}",
+      "uiStateJSON": "{\"P-10\":{\"mapCenter\":[36.87962060502676,111.796875],\"mapZoom\":3},\"P-11\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}},\"P-12\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}},\"P-15\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}},\"P-16\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}},\"P-7\":{\"vis\":{\"legendOpen\":false}},\"P-8\":{\"vis\":{\"defaultColors\":{\"0 - 320000\":\"rgb(247,252,245)\",\"320000 - 640000\":\"rgb(211,238,205)\",\"640000 - 960000\":\"rgb(152,213,148)\",\"960000 - 1280000\":\"rgb(75,176,98)\",\"1280000 - 1600000\":\"rgb(21,127,59)\"}}},\"P-9\":{\"vis\":{\"legendOpen\":false}}}",
+      "version": 1,
+      "timeRestore": false,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[{\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"*\"}}}]}"
+      }
+    }
+  },
+  {
+    "_id": "51d00230-35ec-11e7-9ce3-292960a8b586",
+    "_type": "dashboard",
+    "_source": {
+      "title": "ngx4-86日志分析筛检图",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"col\":1,\"id\":\"b20be480-35eb-11e7-9ce3-292960a8b586\",\"panelIndex\":4,\"row\":1,\"size_x\":6,\"size_y\":4,\"type\":\"visualization\"},{\"col\":7,\"id\":\"e305e310-35eb-11e7-9ce3-292960a8b586\",\"panelIndex\":5,\"row\":1,\"size_x\":6,\"size_y\":4,\"type\":\"visualization\"},{\"col\":7,\"id\":\"fcbed8a0-35e8-11e7-9ce3-292960a8b586\",\"panelIndex\":6,\"row\":5,\"size_x\":6,\"size_y\":4,\"type\":\"visualization\"},{\"col\":1,\"id\":\"a3fbcdd0-35e9-11e7-9ce3-292960a8b586\",\"panelIndex\":7,\"row\":13,\"size_x\":6,\"size_y\":4,\"type\":\"visualization\"},{\"col\":7,\"id\":\"527c1620-35eb-11e7-9ce3-292960a8b586\",\"panelIndex\":8,\"row\":9,\"size_x\":6,\"size_y\":4,\"type\":\"visualization\"},{\"col\":1,\"id\":\"e3a08bf0-3568-11e7-ac16-1f559e203586\",\"panelIndex\":9,\"row\":5,\"size_x\":6,\"size_y\":4,\"type\":\"visualization\"},{\"col\":7,\"id\":\"3161d180-3566-11e7-ac16-1f559e203586\",\"panelIndex\":10,\"row\":13,\"size_x\":6,\"size_y\":4,\"type\":\"visualization\"},{\"col\":7,\"id\":\"ca23ce50-3566-11e7-ac16-1f559e203586\",\"panelIndex\":11,\"row\":17,\"size_x\":6,\"size_y\":4,\"type\":\"visualization\"},{\"col\":1,\"id\":\"130578e0-35e8-11e7-9ce3-292960a8b586\",\"panelIndex\":12,\"row\":21,\"size_x\":12,\"size_y\":3,\"type\":\"visualization\"},{\"col\":1,\"id\":\"f902ab80-355a-11e7-97c2-41b01895d586\",\"panelIndex\":13,\"row\":17,\"size_x\":6,\"size_y\":4,\"type\":\"visualization\"},{\"col\":1,\"id\":\"13730c60-3567-11e7-ac16-1f559e203586\",\"panelIndex\":14,\"row\":9,\"size_x\":6,\"size_y\":4,\"type\":\"visualization\"},{\"col\":1,\"id\":\"8ab3e660-35e8-11e7-9ce3-292960a8b586\",\"panelIndex\":15,\"row\":24,\"size_x\":12,\"size_y\":3,\"type\":\"visualization\"},{\"col\":1,\"id\":\"d574dce0-35e8-11e7-9ce3-292960a8b586\",\"panelIndex\":16,\"row\":27,\"size_x\":12,\"size_y\":3,\"type\":\"visualization\"}]",
+      "optionsJSON": "{\"darkTheme\":false}",
+      "uiStateJSON": "{\"P-10\":{\"mapCenter\":[36.87962060502676,111.796875],\"mapZoom\":3},\"P-11\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}},\"P-12\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}},\"P-15\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}},\"P-16\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}},\"P-7\":{\"vis\":{\"legendOpen\":false}},\"P-8\":{\"vis\":{\"defaultColors\":{\"0 - 400000\":\"rgb(247,252,245)\",\"400000 - 800000\":\"rgb(211,238,205)\",\"800000 - 1200000\":\"rgb(152,213,148)\",\"1200000 - 1600000\":\"rgb(75,176,98)\",\"1600000 - 2000000\":\"rgb(21,127,59)\"}}}}",
+      "version": 1,
+      "timeRestore": false,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[{\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"*\"}}}]}"
+      }
+    }
+  },
+  {
+    "_id": "51d00230-35ec-11e7-9ce3-292960a8b510",
+    "_type": "dashboard",
+    "_source": {
+      "title": "ngx6-10日志分析筛检图",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"col\":1,\"id\":\"b20be480-35eb-11e7-9ce3-292960a8b510\",\"panelIndex\":4,\"row\":1,\"size_x\":6,\"size_y\":4,\"type\":\"visualization\"},{\"col\":7,\"id\":\"e305e310-35eb-11e7-9ce3-292960a8b510\",\"panelIndex\":5,\"row\":1,\"size_x\":6,\"size_y\":4,\"type\":\"visualization\"},{\"col\":7,\"id\":\"fcbed8a0-35e8-11e7-9ce3-292960a8b510\",\"panelIndex\":6,\"row\":5,\"size_x\":6,\"size_y\":4,\"type\":\"visualization\"},{\"col\":1,\"id\":\"a3fbcdd0-35e9-11e7-9ce3-292960a8b510\",\"panelIndex\":7,\"row\":13,\"size_x\":6,\"size_y\":4,\"type\":\"visualization\"},{\"col\":7,\"id\":\"527c1620-35eb-11e7-9ce3-292960a8b510\",\"panelIndex\":8,\"row\":9,\"size_x\":6,\"size_y\":4,\"type\":\"visualization\"},{\"col\":1,\"id\":\"e3a08bf0-3568-11e7-ac16-1f559e203510\",\"panelIndex\":9,\"row\":5,\"size_x\":6,\"size_y\":4,\"type\":\"visualization\"},{\"col\":7,\"id\":\"3161d180-3566-11e7-ac16-1f559e203510\",\"panelIndex\":10,\"row\":13,\"size_x\":6,\"size_y\":4,\"type\":\"visualization\"},{\"col\":7,\"id\":\"ca23ce50-3566-11e7-ac16-1f559e203510\",\"panelIndex\":11,\"row\":17,\"size_x\":6,\"size_y\":4,\"type\":\"visualization\"},{\"col\":1,\"id\":\"130578e0-35e8-11e7-9ce3-292960a8b510\",\"panelIndex\":12,\"row\":21,\"size_x\":12,\"size_y\":3,\"type\":\"visualization\"},{\"col\":1,\"id\":\"f902ab80-355a-11e7-97c2-41b01895d510\",\"panelIndex\":13,\"row\":17,\"size_x\":6,\"size_y\":4,\"type\":\"visualization\"},{\"col\":1,\"id\":\"13730c60-3567-11e7-ac16-1f559e203510\",\"panelIndex\":14,\"row\":9,\"size_x\":6,\"size_y\":4,\"type\":\"visualization\"},{\"col\":1,\"id\":\"8ab3e660-35e8-11e7-9ce3-292960a8b510\",\"panelIndex\":15,\"row\":24,\"size_x\":12,\"size_y\":3,\"type\":\"visualization\"},{\"col\":1,\"id\":\"d574dce0-35e8-11e7-9ce3-292960a8b510\",\"panelIndex\":16,\"row\":27,\"size_x\":12,\"size_y\":3,\"type\":\"visualization\"}]",
+      "optionsJSON": "{\"darkTheme\":false}",
+      "uiStateJSON": "{\"P-10\":{\"mapCenter\":[36.87962060502676,111.796875],\"mapZoom\":3},\"P-11\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}},\"P-12\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}},\"P-15\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}},\"P-16\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}},\"P-7\":{\"vis\":{\"legendOpen\":false}},\"P-8\":{\"vis\":{\"defaultColors\":{\"0 - 140000\":\"rgb(247,252,245)\",\"140000 - 280000\":\"rgb(211,238,205)\",\"280000 - 420000\":\"rgb(152,213,148)\",\"420000 - 560000\":\"rgb(75,176,98)\",\"560000 - 700000\":\"rgb(21,127,59)\"}}}}",
+      "version": 1,
+      "timeRestore": false,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[{\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"*\"}}}]}"
+      }
+    }
+  },
+  {
+    "_id": "51d00230-35ec-11e7-9ce3-292960a8b517",
+    "_type": "dashboard",
+    "_source": {
+      "title": "ngx7-17日志分析筛检图",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[\n  {\n    \"col\": 1,\n    \"id\": \"b20be480-35eb-11e7-9ce3-292960a8b517\",\n    \"panelIndex\": 4,\n    \"row\": 1,\n    \"size_x\": 6,\n    \"size_y\": 4,\n    \"type\": \"visualization\"\n  },\n  {\n    \"col\": 7,\n    \"id\": \"e305e310-35eb-11e7-9ce3-292960a8b517\",\n    \"panelIndex\": 5,\n    \"row\": 1,\n    \"size_x\": 6,\n    \"size_y\": 4,\n    \"type\": \"visualization\"\n  },\n  {\n    \"col\": 7,\n    \"id\": \"fcbed8a0-35e8-11e7-9ce3-292960a8b517\",\n    \"panelIndex\": 6,\n    \"row\": 5,\n    \"size_x\": 6,\n    \"size_y\": 4,\n    \"type\": \"visualization\"\n  },\n  {\n    \"col\": 1,\n    \"id\": \"a3fbcdd0-35e9-11e7-9ce3-292960a8b517\",\n    \"panelIndex\": 7,\n    \"row\": 13,\n    \"size_x\": 6,\n    \"size_y\": 4,\n    \"type\": \"visualization\"\n  },\n  {\n    \"col\": 7,\n    \"id\": \"527c1620-35eb-11e7-9ce3-292960a8b517\",\n    \"panelIndex\": 8,\n    \"row\": 9,\n    \"size_x\": 6,\n    \"size_y\": 4,\n    \"type\": \"visualization\"\n  },\n  {\n    \"col\": 1,\n    \"id\": \"e3a08bf0-3568-11e7-ac16-1f559e203517\",\n    \"panelIndex\": 9,\n    \"row\": 5,\n    \"size_x\": 6,\n    \"size_y\": 4,\n    \"type\": \"visualization\"\n  },\n  {\n    \"col\": 7,\n    \"id\": \"3161d180-3566-11e7-ac16-1f559e203517\",\n    \"panelIndex\": 10,\n    \"row\": 13,\n    \"size_x\": 6,\n    \"size_y\": 4,\n    \"type\": \"visualization\"\n  },\n  {\n    \"col\": 7,\n    \"id\": \"ca23ce50-3566-11e7-ac16-1f559e203517\",\n    \"panelIndex\": 11,\n    \"row\": 17,\n    \"size_x\": 6,\n    \"size_y\": 4,\n    \"type\": \"visualization\"\n  },\n  {\n    \"col\": 1,\n    \"id\": \"130578e0-35e8-11e7-9ce3-292960a8b517\",\n    \"panelIndex\": 12,\n    \"row\": 21,\n    \"size_x\": 12,\n    \"size_y\": 3,\n    \"type\": \"visualization\"\n  },\n  {\n    \"col\": 1,\n    \"id\": \"f902ab80-355a-11e7-97c2-41b01895d517\",\n    \"panelIndex\": 13,\n    \"row\": 17,\n    \"size_x\": 6,\n    \"size_y\": 4,\n    \"type\": \"visualization\"\n  },\n  {\n    \"col\": 1,\n    \"id\": \"13730c60-3567-11e7-ac16-1f559e203517\",\n    \"panelIndex\": 14,\n    \"row\": 9,\n    \"size_x\": 6,\n    \"size_y\": 4,\n    \"type\": \"visualization\"\n  },\n  {\n    \"col\": 1,\n    \"id\": \"8ab3e660-35e8-11e7-9ce3-292960a8b517\",\n    \"panelIndex\": 15,\n    \"row\": 24,\n    \"size_x\": 12,\n    \"size_y\": 4,\n    \"type\": \"visualization\"\n  },\n  {\n    \"col\": 1,\n    \"id\": \"d574dce0-35e8-11e7-9ce3-292960a8b517\",\n    \"panelIndex\": 16,\n    \"row\": 31,\n    \"size_x\": 12,\n    \"size_y\": 3,\n    \"type\": \"visualization\"\n  }\n]",
+      "optionsJSON": "{\n  \"darkTheme\": false\n}",
+      "uiStateJSON": "{\n  \"P-10\": {\n    \"mapCenter\": [\n      36.87962060502676,\n      111.796875\n    ],\n    \"mapZoom\": 3\n  },\n  \"P-11\": {\n    \"vis\": {\n      \"params\": {\n        \"sort\": {\n          \"columnIndex\": null,\n          \"direction\": null\n        }\n      }\n    }\n  },\n  \"P-12\": {\n    \"vis\": {\n      \"params\": {\n        \"sort\": {\n          \"columnIndex\": null,\n          \"direction\": null\n        }\n      }\n    }\n  },\n  \"P-15\": {\n    \"vis\": {\n      \"params\": {\n        \"sort\": {\n          \"columnIndex\": null,\n          \"direction\": null\n        }\n      }\n    }\n  },\n  \"P-16\": {\n    \"vis\": {\n      \"params\": {\n        \"sort\": {\n          \"columnIndex\": null,\n          \"direction\": null\n        }\n      }\n    }\n  },\n  \"P-7\": {\n    \"vis\": {\n      \"legendOpen\": false\n    }\n  },\n  \"P-8\": {\n    \"vis\": {\n      \"defaultColors\": {\n        \"0 - 520000\": \"rgb(247,252,245)\",\n        \"520000 - 1040000\": \"rgb(211,238,205)\",\n        \"1040000 - 1560000\": \"rgb(152,213,148)\",\n        \"1560000 - 2080000\": \"rgb(75,176,98)\",\n        \"2080000 - 2600000\": \"rgb(21,127,59)\"\n      }\n    }\n  },\n  \"P-9\": {\n    \"vis\": {\n      \"legendOpen\": false\n    }\n  }\n}",
+      "version": 1,
+      "timeRestore": false,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\n  \"filter\": [\n    {\n      \"query\": {\n        \"query_string\": {\n          \"analyze_wildcard\": true,\n          \"query\": \"*\"\n        }\n      }\n    }\n  ]\n}"
+      }
+    }
+  },
+  {
+    "_id": "b5aa3da0-3ec2-11e7-b6b5-39c01b39cf77",
+    "_type": "dashboard",
+    "_source": {
+      "title": "ngx0仪表盘总入口",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"col\":1,\"id\":\"654e3050-3ec2-11e7-b6b5-39c01b39cf77\",\"panelIndex\":1,\"row\":1,\"size_x\":3,\"size_y\":4,\"type\":\"visualization\"},{\"col\":4,\"id\":\"676298b0-3aa1-11e7-9d2d-29058a2eb7f6\",\"panelIndex\":2,\"row\":3,\"size_x\":9,\"size_y\":3,\"type\":\"visualization\"},{\"col\":4,\"id\":\"9ec65be0-3ed7-11e7-926a-cb831e8667f9\",\"panelIndex\":3,\"row\":1,\"size_x\":9,\"size_y\":2,\"type\":\"visualization\"},{\"col\":4,\"id\":\"ae3b9d50-3ed8-11e7-926a-cb831e8667f9\",\"panelIndex\":4,\"row\":6,\"size_x\":9,\"size_y\":3,\"type\":\"visualization\"},{\"col\":1,\"id\":\"af9c70f0-41b9-11e7-b86c-25d1d5bdf67f\",\"panelIndex\":5,\"row\":5,\"size_x\":3,\"size_y\":2,\"type\":\"visualization\"},{\"col\":1,\"id\":\"d0884210-41bb-11e7-a884-0355016db498\",\"panelIndex\":6,\"row\":7,\"size_x\":3,\"size_y\":2,\"type\":\"visualization\"},{\"col\":1,\"id\":\"a8586840-41bd-11e7-a884-0355016db498\",\"panelIndex\":11,\"row\":11,\"size_x\":3,\"size_y\":2,\"type\":\"visualization\"},{\"col\":1,\"id\":\"e6b79ee0-41bc-11e7-a884-0355016db498\",\"panelIndex\":12,\"row\":9,\"size_x\":3,\"size_y\":2,\"type\":\"visualization\"},{\"col\":4,\"id\":\"a9d47af0-41ff-11e7-85c7-2b1ef12c4f04\",\"panelIndex\":13,\"row\":9,\"size_x\":9,\"size_y\":3,\"type\":\"visualization\"},{\"col\":4,\"id\":\"5a679150-4bff-11e7-b0d3-8fa3af671ce3\",\"panelIndex\":14,\"row\":12,\"size_x\":3,\"size_y\":2,\"type\":\"visualization\"},{\"col\":1,\"id\":\"029089a0-4bff-11e7-b0d3-8fa3af671ce3\",\"panelIndex\":15,\"row\":13,\"size_x\":3,\"size_y\":2,\"type\":\"visualization\"},{\"col\":7,\"id\":\"bdebfea0-5a46-11e7-bb05-4189596ddc18\",\"panelIndex\":16,\"row\":12,\"size_x\":3,\"size_y\":2,\"type\":\"visualization\"},{\"size_x\":3,\"size_y\":2,\"panelIndex\":17,\"type\":\"visualization\",\"id\":\"8679b5f0-5fa7-11e7-8783-db83ba9ba1fe\",\"col\":10,\"row\":12}]",
+      "optionsJSON": "{\"darkTheme\":false}",
+      "uiStateJSON": "{\"P-13\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}}",
+      "version": 1,
+      "timeRestore": false,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[{\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"*\"}}}]}"
+      }
+    }
+  },
+  {
+    "_id": "0026c640-825d-11e7-a219-8d7d59ad19b1",
+    "_type": "dashboard",
+    "_source": {
+      "title": "数据库日志审计",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"col\":1,\"id\":\"6d9617b0-825a-11e7-97b7-87943c63b3f9\",\"panelIndex\":1,\"row\":1,\"size_x\":8,\"size_y\":3,\"type\":\"visualization\"},{\"col\":1,\"id\":\"ce265430-825c-11e7-a219-8d7d59ad19b1\",\"panelIndex\":2,\"row\":4,\"size_x\":8,\"size_y\":3,\"type\":\"visualization\"},{\"size_x\":4,\"size_y\":3,\"panelIndex\":3,\"type\":\"visualization\",\"id\":\"bc40d940-825f-11e7-a219-8d7d59ad19b1\",\"col\":9,\"row\":1}]",
+      "optionsJSON": "{\"darkTheme\":false}",
+      "uiStateJSON": "{\"P-1\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}},\"P-2\":{\"vis\":{\"legendOpen\":false}},\"P-3\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":0,\"direction\":\"desc\"}}}}}",
+      "version": 1,
+      "timeRestore": false,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[{\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"*\"}}}]}"
+      }
+    }
+  },
+  {
+    "_id": "70f7a660-979c-11e7-a412-55d22f8cd3fe",
+    "_type": "dashboard",
+    "_source": {
+      "title": "EP ES",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"col\":1,\"id\":\"920a8ee0-979b-11e7-8d2a-4704b4a4d916\",\"panelIndex\":1,\"row\":1,\"size_x\":5,\"size_y\":4,\"type\":\"visualization\"},{\"col\":1,\"id\":\"c8317920-979b-11e7-8d2a-4704b4a4d916\",\"panelIndex\":2,\"row\":5,\"size_x\":5,\"size_y\":4,\"type\":\"visualization\"},{\"col\":6,\"id\":\"c88eb780-979f-11e7-a412-55d22f8cd3fe\",\"panelIndex\":3,\"row\":1,\"size_x\":6,\"size_y\":4,\"type\":\"visualization\"},{\"size_x\":6,\"size_y\":4,\"panelIndex\":4,\"type\":\"visualization\",\"id\":\"55a35e10-97a4-11e7-a412-55d22f8cd3fe\",\"col\":6,\"row\":5}]",
+      "optionsJSON": "{\"darkTheme\":false}",
+      "uiStateJSON": "{\"P-1\":{\"spy\":{\"mode\":{\"fill\":false,\"name\":null}},\"vis\":{\"legendOpen\":false}},\"P-2\":{\"vis\":{\"legendOpen\":false}},\"P-3\":{\"vis\":{\"defaultColors\":{\"0 - 17500\":\"rgb(0,68,27)\",\"17500 - 35000\":\"rgb(35,139,69)\",\"35000 - 52500\":\"rgb(116,196,118)\",\"52500 - 70000\":\"rgb(199,233,192)\"},\"legendOpen\":false}},\"P-4\":{\"vis\":{\"legendOpen\":false}}}",
+      "version": 1,
+      "timeRestore": false,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[{\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"es.easypass.cn\"}}}]}"
+      }
+    }
+  },
+  {
+    "_id": "08ab5ec0-864a-11e7-98b6-0b8254334492",
+    "_type": "search",
+    "_source": {
+      "title": "url-count",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "url"
+      ],
+      "sort": [
+        "@timestamp",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"filebeat-*\",\"filter\":[],\"highlight\":{\"pre_tags\":[\"@kibana-highlighted-field@\"],\"post_tags\":[\"@/kibana-highlighted-field@\"],\"fields\":{\"*\":{}},\"require_field_match\":false,\"fragment_size\":2147483647}}"
+      }
+    }
+  },
+  {
+    "_id": "f902ab80-355a-11e7-97c2-41b01895d5b1",
+    "_type": "visualization",
+    "_source": {
+      "title": "ngx1-135访问次数趋势图",
+      "visState": "{\"title\":\"ngx1-135访问次数趋势图\",\"type\":\"area\",\"params\":{\"addLegend\":true,\"addTimeMarker\":false,\"addTooltip\":true,\"defaultYExtents\":false,\"interpolate\":\"linear\",\"legendPosition\":\"right\",\"mode\":\"stacked\",\"scale\":\"linear\",\"setYExtents\":false,\"times\":[],\"orderBucketsBySum\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"ngx1-135访问次数趋势图\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"@timestamp\",\"interval\":\"auto\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{}}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"group\",\"params\":{\"field\":\"http_host.raw\",\"size\":10,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"[filebeat-ngx1-135-]YYYY.MM.DD\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "527c1620-35eb-11e7-9ce3-292960a8b598",
+    "_type": "visualization",
+    "_source": {
+      "title": "ngx2-98响应时间分布图",
+      "visState": "{\"title\":\"ngx2-98响应时间分布图\",\"type\":\"heatmap\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"enableHover\":true,\"legendPosition\":\"right\",\"times\":[],\"colorsNumber\":5,\"colorSchema\":\"Greens\",\"setColorRange\":false,\"colorsRange\":[{\"from\":0,\"to\":0.001},{\"from\":0.001,\"to\":0.1},{\"from\":0.1,\"to\":0.5},{\"from\":0.5,\"to\":1},{\"from\":1,\"to\":10},{\"from\":10,\"to\":60}],\"invertColors\":false,\"percentageMode\":false,\"valueAxes\":[{\"show\":false,\"id\":\"ValueAxis-1\",\"type\":\"value\",\"scale\":{\"type\":\"linear\",\"defaultYExtents\":false},\"labels\":{\"show\":true,\"rotate\":270,\"color\":\"#555\"}}]},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"响应时间统计\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"range\",\"schema\":\"segment\",\"params\":{\"field\":\"responsetime\",\"ranges\":[{\"from\":0,\"to\":0.1},{\"from\":0.1,\"to\":0.3},{\"from\":0.3,\"to\":0.5},{\"from\":0.5,\"to\":1},{\"from\":1,\"to\":10},{\"from\":10,\"to\":60},{\"from\":60,\"to\":300}],\"customLabel\":\"响应时范围\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"defaultColors\":{\"0 - 180000\":\"rgb(247,252,245)\",\"180000 - 360000\":\"rgb(211,238,205)\",\"360000 - 540000\":\"rgb(152,213,148)\",\"540000 - 720000\":\"rgb(75,176,98)\",\"720000 - 900000\":\"rgb(21,127,59)\"}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"[filebeat-ngx2-98-]YYYY.MM.DD\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "b20be480-35eb-11e7-9ce3-292960a8b598",
+    "_type": "visualization",
+    "_source": {
+      "title": "ngx2-98域名统计饼状图",
+      "visState": "{\"title\":\"ngx2-98域名统计饼状图\",\"type\":\"pie\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"域名统计饼状图\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"http_host.raw\",\"size\":100,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"域名统计饼状图\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"[filebeat-ngx2-98-]YYYY.MM.DD\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "e305e310-35eb-11e7-9ce3-292960a8b598",
+    "_type": "visualization",
+    "_source": {
+      "title": "ngx2-98源站统计饼状图",
+      "visState": "{\"title\":\"ngx2-98源站统计饼状图\",\"type\":\"pie\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"源站分布饼状图\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"upstreamhost.raw\",\"size\":100,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"[filebeat-ngx2-98-]YYYY.MM.DD\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "3161d180-3566-11e7-ac16-1f559e203598",
+    "_type": "visualization",
+    "_source": {
+      "title": "ngx2-98访问区域分布图",
+      "visState": "{\"title\":\"ngx2-98访问区域分布图\",\"type\":\"tile_map\",\"params\":{\"addTooltip\":true,\"heatBlur\":15,\"heatMaxZoom\":16,\"heatMinOpacity\":0.1,\"heatNormalizeData\":true,\"heatRadius\":25,\"isDesaturated\":true,\"legendPosition\":\"topright\",\"mapCenter\":[15,5],\"mapType\":\"Scaled Circle Markers\",\"mapZoom\":2,\"wms\":{\"enabled\":false,\"options\":{\"attribution\":\"Maps provided by USGS\",\"format\":\"image/png\",\"layers\":\"0\",\"styles\":\"\",\"transparent\":true,\"version\":\"1.3.0\"},\"url\":\"https://basemap.nationalmap.gov/arcgis/services/USGSTopo/MapServer/WMSServer\"}},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"ngx2-98客户端访问分布图\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"geohash_grid\",\"schema\":\"segment\",\"params\":{\"field\":\"geoip.location\",\"autoPrecision\":true}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"mapCenter\":[28.998531814051795,117.59765625],\"mapZoom\":4}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"[filebeat-ngx2-98-]YYYY.MM.DD\",\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"*\"}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "f902ab80-355a-11e7-97c2-41b01895d598",
+    "_type": "visualization",
+    "_source": {
+      "title": "ngx2-98访问次数趋势图",
+      "visState": "{\"title\":\"ngx2-98访问次数趋势图\",\"type\":\"area\",\"params\":{\"addLegend\":true,\"addTimeMarker\":false,\"addTooltip\":true,\"defaultYExtents\":false,\"interpolate\":\"linear\",\"legendPosition\":\"right\",\"mode\":\"stacked\",\"scale\":\"linear\",\"setYExtents\":false,\"times\":[],\"orderBucketsBySum\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"ngx2-98访问次数趋势图\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"@timestamp\",\"interval\":\"auto\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{}}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"group\",\"params\":{\"field\":\"http_host.raw\",\"size\":10,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"[filebeat-ngx2-98-]YYYY.MM.DD\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "13730c60-3567-11e7-ac16-1f559e203598",
+    "_type": "visualization",
+    "_source": {
+      "title": "ngx2-98 http状态码统计图",
+      "visState": "{\"title\":\"ngx2-98 http状态码统计图\",\"type\":\"pie\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"ngx2-98 http状态码统计图\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"status.raw\",\"size\":20,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"[filebeat-ngx2-98-]YYYY.MM.DD\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "e305e310-35eb-11e7-9ce3-292960a8b5d2",
+    "_type": "visualization",
+    "_source": {
+      "title": "ngx1-135源站统计饼状图",
+      "visState": "{\"title\":\"ngx1-135源站统计饼状图\",\"type\":\"pie\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"源站分布饼状图\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"upstreamhost.raw\",\"size\":100,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"[filebeat-ngx1-135-]YYYY.MM.DD\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "3161d180-3566-11e7-ac16-1f559e2035bf",
+    "_type": "visualization",
+    "_source": {
+      "title": "ngx1-135访问区域分布图",
+      "visState": "{\"title\":\"ngx1-135访问区域分布图\",\"type\":\"tile_map\",\"params\":{\"addTooltip\":true,\"heatBlur\":15,\"heatMaxZoom\":16,\"heatMinOpacity\":0.1,\"heatNormalizeData\":true,\"heatRadius\":25,\"isDesaturated\":true,\"legendPosition\":\"topright\",\"mapCenter\":[15,5],\"mapType\":\"Scaled Circle Markers\",\"mapZoom\":2,\"wms\":{\"enabled\":false,\"options\":{\"attribution\":\"Maps provided by USGS\",\"format\":\"image/png\",\"layers\":\"0\",\"styles\":\"\",\"transparent\":true,\"version\":\"1.3.0\"},\"url\":\"https://basemap.nationalmap.gov/arcgis/services/USGSTopo/MapServer/WMSServer\"}},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"ngx1-135客户端访问分布图\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"geohash_grid\",\"schema\":\"segment\",\"params\":{\"field\":\"geoip.location\",\"autoPrecision\":true}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"mapCenter\":[28.998531814051795,117.59765625],\"mapZoom\":4}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"[filebeat-ngx1-135-]YYYY.MM.DD\",\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"*\"}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "527c1620-35eb-11e7-9ce3-292960a8b5d2",
+    "_type": "visualization",
+    "_source": {
+      "title": "ngx1-135响应时间分布图",
+      "visState": "{\"title\":\"ngx1-135响应时间分布图\",\"type\":\"heatmap\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"enableHover\":true,\"legendPosition\":\"right\",\"times\":[],\"colorsNumber\":5,\"colorSchema\":\"Greens\",\"setColorRange\":false,\"colorsRange\":[{\"from\":0,\"to\":0.001},{\"from\":0.001,\"to\":0.1},{\"from\":0.1,\"to\":0.5},{\"from\":0.5,\"to\":1},{\"from\":1,\"to\":10},{\"from\":10,\"to\":60}],\"invertColors\":false,\"percentageMode\":false,\"valueAxes\":[{\"show\":false,\"id\":\"ValueAxis-1\",\"type\":\"value\",\"scale\":{\"type\":\"linear\",\"defaultYExtents\":false},\"labels\":{\"show\":true,\"rotate\":270,\"color\":\"#555\"}}]},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"响应时间统计\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"range\",\"schema\":\"segment\",\"params\":{\"field\":\"responsetime\",\"ranges\":[{\"from\":0,\"to\":0.1},{\"from\":0.1,\"to\":0.3},{\"from\":0.3,\"to\":0.5},{\"from\":0.5,\"to\":1},{\"from\":1,\"to\":10},{\"from\":10,\"to\":60},{\"from\":60,\"to\":300}],\"customLabel\":\"响应时范围\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"defaultColors\":{\"0 - 180000\":\"rgb(247,252,245)\",\"180000 - 360000\":\"rgb(211,238,205)\",\"360000 - 540000\":\"rgb(152,213,148)\",\"540000 - 720000\":\"rgb(75,176,98)\",\"720000 - 900000\":\"rgb(21,127,59)\"}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"[filebeat-ngx1-135-]YYYY.MM.DD\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "13730c60-3567-11e7-ac16-1f559e2035bf",
+    "_type": "visualization",
+    "_source": {
+      "title": "ngx1-135 http状态码统计图",
+      "visState": "{\"title\":\"ngx1-135 http状态码统计图\",\"type\":\"pie\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"ngx1-135 http状态码统计图\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"status.raw\",\"size\":20,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"[filebeat-ngx1-135-]YYYY.MM.DD\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "b20be480-35eb-11e7-9ce3-292960a8b5d2",
+    "_type": "visualization",
+    "_source": {
+      "title": "ngx1-135域名统计饼状图",
+      "visState": "{\"title\":\"ngx1-135域名统计饼状图\",\"type\":\"pie\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"域名统计饼状图\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"http_host.raw\",\"size\":100,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"域名统计饼状图\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"[filebeat-ngx1-135-]YYYY.MM.DD\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "e305e310-35eb-11e7-9ce3-292960a8b562",
+    "_type": "visualization",
+    "_source": {
+      "title": "ngx3-62源站统计饼状图",
+      "visState": "{\"title\":\"ngx3-62源站统计饼状图\",\"type\":\"pie\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"源站分布饼状图\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"upstreamhost.raw\",\"size\":100,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"[filebeat-ngx3-62-]YYYY.MM.DD\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "3161d180-3566-11e7-ac16-1f559e203562",
+    "_type": "visualization",
+    "_source": {
+      "title": "ngx3-62访问区域分布图",
+      "visState": "{\"title\":\"ngx3-62访问区域分布图\",\"type\":\"tile_map\",\"params\":{\"addTooltip\":true,\"heatBlur\":15,\"heatMaxZoom\":16,\"heatMinOpacity\":0.1,\"heatNormalizeData\":true,\"heatRadius\":25,\"isDesaturated\":true,\"legendPosition\":\"topright\",\"mapCenter\":[15,5],\"mapType\":\"Scaled Circle Markers\",\"mapZoom\":2,\"wms\":{\"enabled\":false,\"options\":{\"attribution\":\"Maps provided by USGS\",\"format\":\"image/png\",\"layers\":\"0\",\"styles\":\"\",\"transparent\":true,\"version\":\"1.3.0\"},\"url\":\"https://basemap.nationalmap.gov/arcgis/services/USGSTopo/MapServer/WMSServer\"}},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"ngx3-62客户端访问分布图\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"geohash_grid\",\"schema\":\"segment\",\"params\":{\"field\":\"geoip.location\",\"autoPrecision\":true}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"mapCenter\":[28.998531814051795,117.59765625],\"mapZoom\":4}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"[filebeat-ngx3-62-]YYYY.MM.DD\",\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"*\"}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "527c1620-35eb-11e7-9ce3-292960a8b562",
+    "_type": "visualization",
+    "_source": {
+      "title": "ngx3-62响应时间分布图",
+      "visState": "{\"title\":\"ngx3-62响应时间分布图\",\"type\":\"heatmap\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"enableHover\":true,\"legendPosition\":\"right\",\"times\":[],\"colorsNumber\":5,\"colorSchema\":\"Greens\",\"setColorRange\":false,\"colorsRange\":[{\"from\":0,\"to\":0.001},{\"from\":0.001,\"to\":0.1},{\"from\":0.1,\"to\":0.5},{\"from\":0.5,\"to\":1},{\"from\":1,\"to\":10},{\"from\":10,\"to\":60}],\"invertColors\":false,\"percentageMode\":false,\"valueAxes\":[{\"show\":false,\"id\":\"ValueAxis-1\",\"type\":\"value\",\"scale\":{\"type\":\"linear\",\"defaultYExtents\":false},\"labels\":{\"show\":true,\"rotate\":270,\"color\":\"#555\"}}]},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"响应时间统计\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"range\",\"schema\":\"segment\",\"params\":{\"field\":\"responsetime\",\"ranges\":[{\"from\":0,\"to\":0.1},{\"from\":0.1,\"to\":0.3},{\"from\":0.3,\"to\":0.5},{\"from\":0.5,\"to\":1},{\"from\":1,\"to\":10},{\"from\":10,\"to\":60},{\"from\":60,\"to\":300}],\"customLabel\":\"响应时范围\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"defaultColors\":{\"0 - 180000\":\"rgb(247,252,245)\",\"180000 - 360000\":\"rgb(211,238,205)\",\"360000 - 540000\":\"rgb(152,213,148)\",\"540000 - 720000\":\"rgb(75,176,98)\",\"720000 - 900000\":\"rgb(21,127,59)\"}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"[filebeat-ngx3-62-]YYYY.MM.DD\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "f902ab80-355a-11e7-97c2-41b01895d562",
+    "_type": "visualization",
+    "_source": {
+      "title": "ngx3-62访问次数趋势图",
+      "visState": "{\"title\":\"ngx3-62访问次数趋势图\",\"type\":\"area\",\"params\":{\"addLegend\":true,\"addTimeMarker\":false,\"addTooltip\":true,\"defaultYExtents\":false,\"interpolate\":\"linear\",\"legendPosition\":\"right\",\"mode\":\"stacked\",\"scale\":\"linear\",\"setYExtents\":false,\"times\":[],\"orderBucketsBySum\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"ngx3-62访问次数趋势图\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"@timestamp\",\"interval\":\"auto\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{}}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"group\",\"params\":{\"field\":\"http_host.raw\",\"size\":10,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"[filebeat-ngx3-62-]YYYY.MM.DD\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "b20be480-35eb-11e7-9ce3-292960a8b562",
+    "_type": "visualization",
+    "_source": {
+      "title": "ngx3-62域名统计饼状图",
+      "visState": "{\"title\":\"ngx3-62域名统计饼状图\",\"type\":\"pie\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"域名统计饼状图\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"http_host.raw\",\"size\":100,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"域名统计饼状图\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"[filebeat-ngx3-62-]YYYY.MM.DD\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "13730c60-3567-11e7-ac16-1f559e203562",
+    "_type": "visualization",
+    "_source": {
+      "title": "ngx3-62 http状态码统计图",
+      "visState": "{\"title\":\"ngx3-62 http状态码统计图\",\"type\":\"pie\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"ngx3-62 http状态码统计图\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"status.raw\",\"size\":20,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"[filebeat-ngx3-62-]YYYY.MM.DD\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "ca23ce50-3566-11e7-ac16-1f559e203562",
+    "_type": "visualization",
+    "_source": {
+      "title": "ngx3-62 clientip  top 100",
+      "visState": "{\"title\":\"ngx3-62 clientip  top 100\",\"type\":\"table\",\"params\":{\"perPage\":20,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":true,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"clientip  top100\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"clientRealIp.raw\",\"size\":100,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"[filebeat-ngx3-62-]YYYY.MM.DD\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "25e16520-360e-11e7-9042-67f095e16d62",
+    "_type": "visualization",
+    "_source": {
+      "title": "ngx3-62 request top100",
+      "visState": "{\"title\":\"ngx3-62 request top100\",\"type\":\"table\",\"params\":{\"perPage\":20,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":true,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"request top100\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"request.raw\",\"size\":100,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"[filebeat-ngx3-62-]YYYY.MM.DD\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "d574dce0-35e8-11e7-9ce3-292960a8b562",
+    "_type": "visualization",
+    "_source": {
+      "title": "ngx3-62 agent top100",
+      "visState": "{\"title\":\"ngx3-62 agent top100\",\"type\":\"table\",\"params\":{\"perPage\":20,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":true,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"agent top100\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"agent.raw\",\"size\":100,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"[filebeat-ngx3-62-]YYYY.MM.DD\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "8ab3e660-35e8-11e7-9ce3-292960a8b562",
+    "_type": "visualization",
+    "_source": {
+      "title": "ngx3-62 reffer top100",
+      "visState": "{\"title\":\"ngx3-62 reffer top100\",\"type\":\"table\",\"params\":{\"perPage\":20,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":true,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"reffer top100\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"referrer.raw\",\"size\":100,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"[filebeat-ngx3-62-]YYYY.MM.DD\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "ca23ce50-3566-11e7-ac16-1f559e2035bf",
+    "_type": "visualization",
+    "_source": {
+      "title": "ngx1-135 clientip  top 100",
+      "visState": "{\"title\":\"ngx1-135 clientip  top 100\",\"type\":\"table\",\"params\":{\"perPage\":20,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":true,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"clientip  top100\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"clientRealIp.raw\",\"size\":100,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"[filebeat-ngx1-135-]YYYY.MM.DD\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "fd693ae0-3613-11e7-836a-ff823b3686a1",
+    "_type": "visualization",
+    "_source": {
+      "title": "ngx2-62 request top100",
+      "visState": "{\"title\":\"ngx2-62 request top100\",\"type\":\"table\",\"params\":{\"perPage\":20,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"request top100\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"request.raw\",\"size\":100,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"[filebeat-ngx2-98-]YYYY.MM.DD\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "8ab3e660-35e8-11e7-9ce3-292960a8b5d2",
+    "_type": "visualization",
+    "_source": {
+      "title": "ngx1-135 reffer top100",
+      "visState": "{\"title\":\"ngx1-135 reffer top100\",\"type\":\"table\",\"params\":{\"perPage\":20,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":true,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"reffer top100\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"referrer.raw\",\"size\":100,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"[filebeat-ngx1-135-]YYYY.MM.DD\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "25e16520-360e-11e7-9042-67f095e16dd9",
+    "_type": "visualization",
+    "_source": {
+      "title": "ngx1-135 request top100",
+      "visState": "{\"title\":\"ngx1-135 request top100\",\"type\":\"table\",\"params\":{\"perPage\":20,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":true,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"request top100\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"request.raw\",\"size\":100,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"[filebeat-ngx1-135-]YYYY.MM.DD\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "d574dce0-35e8-11e7-9ce3-292960a8b5d2",
+    "_type": "visualization",
+    "_source": {
+      "title": "ngx1-135 agent top100",
+      "visState": "{\"title\":\"ngx1-135 agent top100\",\"type\":\"table\",\"params\":{\"perPage\":20,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":true,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"agent top100\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"agent.raw\",\"size\":100,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"[filebeat-ngx1-135-]YYYY.MM.DD\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "e305e310-35eb-11e7-9ce3-292960a8b586",
+    "_type": "visualization",
+    "_source": {
+      "title": "ngx4-86源站统计饼状图",
+      "visState": "{\"title\":\"ngx4-86源站统计饼状图\",\"type\":\"pie\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"源站分布饼状图\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"upstreamhost.raw\",\"size\":100,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"[filebeat-ngx4-86-]YYYY.MM.DD\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "3161d180-3566-11e7-ac16-1f559e203586",
+    "_type": "visualization",
+    "_source": {
+      "title": "ngx4-86访问区域分布图",
+      "visState": "{\"title\":\"ngx4-86访问区域分布图\",\"type\":\"tile_map\",\"params\":{\"addTooltip\":true,\"heatBlur\":15,\"heatMaxZoom\":16,\"heatMinOpacity\":0.1,\"heatNormalizeData\":true,\"heatRadius\":25,\"isDesaturated\":true,\"legendPosition\":\"topright\",\"mapCenter\":[15,5],\"mapType\":\"Scaled Circle Markers\",\"mapZoom\":2,\"wms\":{\"enabled\":false,\"options\":{\"attribution\":\"Maps provided by USGS\",\"format\":\"image/png\",\"layers\":\"0\",\"styles\":\"\",\"transparent\":true,\"version\":\"1.3.0\"},\"url\":\"https://basemap.nationalmap.gov/arcgis/services/USGSTopo/MapServer/WMSServer\"}},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"ngx4-86客户端访问分布图\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"geohash_grid\",\"schema\":\"segment\",\"params\":{\"field\":\"geoip.location\",\"autoPrecision\":true}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"mapCenter\":[28.998531814051795,117.59765625],\"mapZoom\":4}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"[filebeat-ngx4-86-]YYYY.MM.DD\",\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"*\"}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "527c1620-35eb-11e7-9ce3-292960a8b586",
+    "_type": "visualization",
+    "_source": {
+      "title": "ngx4-86响应时间分布图",
+      "visState": "{\"title\":\"ngx4-86响应时间分布图\",\"type\":\"heatmap\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"enableHover\":true,\"legendPosition\":\"right\",\"times\":[],\"colorsNumber\":5,\"colorSchema\":\"Greens\",\"setColorRange\":false,\"colorsRange\":[{\"from\":0,\"to\":0.001},{\"from\":0.001,\"to\":0.1},{\"from\":0.1,\"to\":0.5},{\"from\":0.5,\"to\":1},{\"from\":1,\"to\":10},{\"from\":10,\"to\":60}],\"invertColors\":false,\"percentageMode\":false,\"valueAxes\":[{\"show\":false,\"id\":\"ValueAxis-1\",\"type\":\"value\",\"scale\":{\"type\":\"linear\",\"defaultYExtents\":false},\"labels\":{\"show\":true,\"rotate\":270,\"color\":\"#555\"}}]},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"响应时间统计\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"range\",\"schema\":\"segment\",\"params\":{\"field\":\"responsetime\",\"ranges\":[{\"from\":0,\"to\":0.1},{\"from\":0.1,\"to\":0.3},{\"from\":0.3,\"to\":0.5},{\"from\":0.5,\"to\":1},{\"from\":1,\"to\":10},{\"from\":10,\"to\":60},{\"from\":60,\"to\":300}],\"customLabel\":\"响应时范围\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"defaultColors\":{\"0 - 180000\":\"rgb(247,252,245)\",\"180000 - 360000\":\"rgb(211,238,205)\",\"360000 - 540000\":\"rgb(152,213,148)\",\"540000 - 720000\":\"rgb(75,176,98)\",\"720000 - 900000\":\"rgb(21,127,59)\"}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"[filebeat-ngx4-86-]YYYY.MM.DD\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "f902ab80-355a-11e7-97c2-41b01895d586",
+    "_type": "visualization",
+    "_source": {
+      "title": "ngx4-86访问次数趋势图",
+      "visState": "{\"title\":\"ngx4-86访问次数趋势图\",\"type\":\"area\",\"params\":{\"addLegend\":true,\"addTimeMarker\":false,\"addTooltip\":true,\"defaultYExtents\":false,\"interpolate\":\"linear\",\"legendPosition\":\"right\",\"mode\":\"stacked\",\"scale\":\"linear\",\"setYExtents\":false,\"times\":[],\"orderBucketsBySum\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"ngx4-86访问次数趋势图\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"@timestamp\",\"interval\":\"auto\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{}}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"group\",\"params\":{\"field\":\"http_host.raw\",\"size\":10,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"[filebeat-ngx4-86-]YYYY.MM.DD\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "ca23ce50-3566-11e7-ac16-1f559e203598",
+    "_type": "visualization",
+    "_source": {
+      "title": "ngx2-98 clientip  top 100",
+      "visState": "{\"title\":\"ngx2-98 clientip  top 100\",\"type\":\"table\",\"params\":{\"perPage\":20,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":true,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"clientip  top100\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"clientRealIp.raw\",\"size\":100,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"[filebeat-ngx2-98-]YYYY.MM.DD\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "8ab3e660-35e8-11e7-9ce3-292960a8b598",
+    "_type": "visualization",
+    "_source": {
+      "title": "ngx2-98 reffer top100",
+      "visState": "{\"title\":\"ngx2-98 reffer top100\",\"type\":\"table\",\"params\":{\"perPage\":20,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":true,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"reffer top100\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"referrer.raw\",\"size\":100,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"[filebeat-ngx2-98-]YYYY.MM.DD\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "d574dce0-35e8-11e7-9ce3-292960a8b598",
+    "_type": "visualization",
+    "_source": {
+      "title": "ngx2-98 agent top100",
+      "visState": "{\"title\":\"ngx2-98 agent top100\",\"type\":\"table\",\"params\":{\"perPage\":20,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":true,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"agent top100\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"agent.raw\",\"size\":100,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"[filebeat-ngx2-98-]YYYY.MM.DD\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "527c1620-35eb-11e7-9ce3-292960a8b510",
+    "_type": "visualization",
+    "_source": {
+      "title": "ngx6-10响应时间分布图",
+      "visState": "{\"title\":\"ngx6-10响应时间分布图\",\"type\":\"heatmap\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"enableHover\":true,\"legendPosition\":\"right\",\"times\":[],\"colorsNumber\":5,\"colorSchema\":\"Greens\",\"setColorRange\":false,\"colorsRange\":[{\"from\":0,\"to\":0.001},{\"from\":0.001,\"to\":0.1},{\"from\":0.1,\"to\":0.5},{\"from\":0.5,\"to\":1},{\"from\":1,\"to\":10},{\"from\":10,\"to\":60}],\"invertColors\":false,\"percentageMode\":false,\"valueAxes\":[{\"show\":false,\"id\":\"ValueAxis-1\",\"type\":\"value\",\"scale\":{\"type\":\"linear\",\"defaultYExtents\":false},\"labels\":{\"show\":true,\"rotate\":270,\"color\":\"#555\"}}]},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"响应时间统计\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"range\",\"schema\":\"segment\",\"params\":{\"field\":\"responsetime\",\"ranges\":[{\"from\":0,\"to\":0.1},{\"from\":0.1,\"to\":0.3},{\"from\":0.3,\"to\":0.5},{\"from\":0.5,\"to\":1},{\"from\":1,\"to\":10},{\"from\":10,\"to\":60},{\"from\":60,\"to\":300}],\"customLabel\":\"响应时范围\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"defaultColors\":{\"0 - 180000\":\"rgb(247,252,245)\",\"180000 - 360000\":\"rgb(211,238,205)\",\"360000 - 540000\":\"rgb(152,213,148)\",\"540000 - 720000\":\"rgb(75,176,98)\",\"720000 - 900000\":\"rgb(21,127,59)\"}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"[filebeat-ngx6-10-]YYYY.MM.DD\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "f902ab80-355a-11e7-97c2-41b01895d510",
+    "_type": "visualization",
+    "_source": {
+      "title": "ngx6-10访问次数趋势图",
+      "visState": "{\"title\":\"ngx6-10访问次数趋势图\",\"type\":\"area\",\"params\":{\"addLegend\":true,\"addTimeMarker\":false,\"addTooltip\":true,\"defaultYExtents\":false,\"interpolate\":\"linear\",\"legendPosition\":\"right\",\"mode\":\"stacked\",\"scale\":\"linear\",\"setYExtents\":false,\"times\":[],\"orderBucketsBySum\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"ngx6-10访问次数趋势图\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"@timestamp\",\"interval\":\"auto\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{}}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"group\",\"params\":{\"field\":\"http_host.raw\",\"size\":10,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"[filebeat-ngx6-10-]YYYY.MM.DD\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "b20be480-35eb-11e7-9ce3-292960a8b510",
+    "_type": "visualization",
+    "_source": {
+      "title": "ngx6-10域名统计饼状图",
+      "visState": "{\"title\":\"ngx6-10域名统计饼状图\",\"type\":\"pie\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"域名统计饼状图\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"http_host.raw\",\"size\":100,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"域名统计饼状图\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"[filebeat-ngx6-10-]YYYY.MM.DD\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "13730c60-3567-11e7-ac16-1f559e203510",
+    "_type": "visualization",
+    "_source": {
+      "title": "ngx6-10 http状态码统计图",
+      "visState": "{\"title\":\"ngx6-10 http状态码统计图\",\"type\":\"pie\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"ngx6-10 http状态码统计图\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"status.raw\",\"size\":20,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"[filebeat-ngx6-10-]YYYY.MM.DD\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "ca23ce50-3566-11e7-ac16-1f559e203510",
+    "_type": "visualization",
+    "_source": {
+      "title": "ngx6-10 clientip  top 100",
+      "visState": "{\"title\":\"ngx6-10 clientip  top 100\",\"type\":\"table\",\"params\":{\"perPage\":20,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":true,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"clientip  top100\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"clientRealIp.raw\",\"size\":100,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"[filebeat-ngx6-10-]YYYY.MM.DD\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "25e16520-360e-11e7-9042-67f095e16d10",
+    "_type": "visualization",
+    "_source": {
+      "title": "ngx6-10 request top100",
+      "visState": "{\"title\":\"ngx6-10 request top100\",\"type\":\"table\",\"params\":{\"perPage\":20,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":true,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"request top100\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"request.raw\",\"size\":100,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"[filebeat-ngx6-10-]YYYY.MM.DD\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "d574dce0-35e8-11e7-9ce3-292960a8b510",
+    "_type": "visualization",
+    "_source": {
+      "title": "ngx6-10 agent top100",
+      "visState": "{\"title\":\"ngx6-10 agent top100\",\"type\":\"table\",\"params\":{\"perPage\":20,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":true,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"agent top100\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"agent.raw\",\"size\":100,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"[filebeat-ngx6-10-]YYYY.MM.DD\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "8ab3e660-35e8-11e7-9ce3-292960a8b510",
+    "_type": "visualization",
+    "_source": {
+      "title": "ngx6-10 reffer top100",
+      "visState": "{\"title\":\"ngx6-10 reffer top100\",\"type\":\"table\",\"params\":{\"perPage\":20,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":true,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"reffer top100\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"referrer.raw\",\"size\":100,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"[filebeat-ngx6-10-]YYYY.MM.DD\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "f902ab80-355a-11e7-97c2-41b01895d541",
+    "_type": "visualization",
+    "_source": {
+      "title": "ngx5-141访问次数趋势图",
+      "visState": "{\"title\":\"ngx5-141访问次数趋势图\",\"type\":\"area\",\"params\":{\"addLegend\":true,\"addTimeMarker\":false,\"addTooltip\":true,\"defaultYExtents\":false,\"interpolate\":\"linear\",\"legendPosition\":\"right\",\"mode\":\"stacked\",\"scale\":\"linear\",\"setYExtents\":false,\"times\":[],\"orderBucketsBySum\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"ngx5-141访问次数趋势图\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"@timestamp\",\"interval\":\"auto\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{}}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"group\",\"params\":{\"field\":\"http_host.raw\",\"size\":10,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"[filebeat-ngx5-141-]YYYY.MM.DD\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "b20be480-35eb-11e7-9ce3-292960a8b541",
+    "_type": "visualization",
+    "_source": {
+      "title": "ngx5-141域名统计饼状图",
+      "visState": "{\"title\":\"ngx5-141域名统计饼状图\",\"type\":\"pie\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"域名统计饼状图\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"http_host.raw\",\"size\":100,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"域名统计饼状图\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"[filebeat-ngx5-141-]YYYY.MM.DD\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "13730c60-3567-11e7-ac16-1f559e203541",
+    "_type": "visualization",
+    "_source": {
+      "title": "ngx5-141 http状态码统计图",
+      "visState": "{\"title\":\"ngx5-141 http状态码统计图\",\"type\":\"pie\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"ngx5-141 http状态码统计图\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"status.raw\",\"size\":20,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"[filebeat-ngx5-141-]YYYY.MM.DD\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "ca23ce50-3566-11e7-ac16-1f559e203541",
+    "_type": "visualization",
+    "_source": {
+      "title": "ngx5-141 clientip  top 100",
+      "visState": "{\"title\":\"ngx5-141 clientip  top 100\",\"type\":\"table\",\"params\":{\"perPage\":20,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":true,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"clientip  top100\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"clientRealIp.raw\",\"size\":100,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"[filebeat-ngx5-141-]YYYY.MM.DD\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "25e16520-360e-11e7-9042-67f095e16d41",
+    "_type": "visualization",
+    "_source": {
+      "title": "ngx5-141 request top100",
+      "visState": "{\"title\":\"ngx5-141 request top100\",\"type\":\"table\",\"params\":{\"perPage\":20,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":true,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"request top100\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"request.raw\",\"size\":100,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"[filebeat-ngx5-141-]YYYY.MM.DD\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "d574dce0-35e8-11e7-9ce3-292960a8b541",
+    "_type": "visualization",
+    "_source": {
+      "title": "ngx5-141 agent top100",
+      "visState": "{\"title\":\"ngx5-141 agent top100\",\"type\":\"table\",\"params\":{\"perPage\":20,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":true,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"agent top100\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"agent.raw\",\"size\":100,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"[filebeat-ngx5-141-]YYYY.MM.DD\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "8ab3e660-35e8-11e7-9ce3-292960a8b541",
+    "_type": "visualization",
+    "_source": {
+      "title": "ngx5-141 reffer top100",
+      "visState": "{\"title\":\"ngx5-141 reffer top100\",\"type\":\"table\",\"params\":{\"perPage\":20,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":true,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"reffer top100\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"referrer.raw\",\"size\":100,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"[filebeat-ngx5-141-]YYYY.MM.DD\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "25e16520-360e-11e7-9042-67f095e16d86",
+    "_type": "visualization",
+    "_source": {
+      "title": "ngx4-86 request top100",
+      "visState": "{\"title\":\"ngx4-86 request top100\",\"type\":\"table\",\"params\":{\"perPage\":20,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":true,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"request top100\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"request.raw\",\"size\":100,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"[filebeat-ngx4-86-]YYYY.MM.DD\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "ca23ce50-3566-11e7-ac16-1f559e203586",
+    "_type": "visualization",
+    "_source": {
+      "title": "ngx4-86 clientip  top 100",
+      "visState": "{\"title\":\"ngx4-86 clientip  top 100\",\"type\":\"table\",\"params\":{\"perPage\":20,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":true,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"clientip  top100\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"clientRealIp.raw\",\"size\":100,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"[filebeat-ngx4-86-]YYYY.MM.DD\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "13730c60-3567-11e7-ac16-1f559e203586",
+    "_type": "visualization",
+    "_source": {
+      "title": "ngx4-86 http状态码统计图",
+      "visState": "{\"title\":\"ngx4-86 http状态码统计图\",\"type\":\"pie\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"ngx4-86 http状态码统计图\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"status.raw\",\"size\":20,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"[filebeat-ngx4-86-]YYYY.MM.DD\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "b20be480-35eb-11e7-9ce3-292960a8b586",
+    "_type": "visualization",
+    "_source": {
+      "title": "ngx4-86域名统计饼状图",
+      "visState": "{\"title\":\"ngx4-86域名统计饼状图\",\"type\":\"pie\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"域名统计饼状图\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"http_host.raw\",\"size\":100,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"域名统计饼状图\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"[filebeat-ngx4-86-]YYYY.MM.DD\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "d574dce0-35e8-11e7-9ce3-292960a8b586",
+    "_type": "visualization",
+    "_source": {
+      "title": "ngx4-86 agent top100",
+      "visState": "{\"title\":\"ngx4-86 agent top100\",\"type\":\"table\",\"params\":{\"perPage\":20,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":true,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"agent top100\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"agent.raw\",\"size\":100,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"[filebeat-ngx4-86-]YYYY.MM.DD\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "8ab3e660-35e8-11e7-9ce3-292960a8b586",
+    "_type": "visualization",
+    "_source": {
+      "title": "ngx4-86 reffer top100",
+      "visState": "{\"title\":\"ngx4-86 reffer top100\",\"type\":\"table\",\"params\":{\"perPage\":20,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":true,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"reffer top100\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"referrer.raw\",\"size\":100,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"[filebeat-ngx4-86-]YYYY.MM.DD\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "e305e310-35eb-11e7-9ce3-292960a8b541",
+    "_type": "visualization",
+    "_source": {
+      "title": "ngx5-141源站统计饼状图",
+      "visState": "{\"title\":\"ngx5-141源站统计饼状图\",\"type\":\"pie\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"源站分布饼状图\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"upstreamhost.raw\",\"size\":100,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"[filebeat-ngx5-141-]YYYY.MM.DD\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "3161d180-3566-11e7-ac16-1f559e203541",
+    "_type": "visualization",
+    "_source": {
+      "title": "ngx5-141访问区域分布图",
+      "visState": "{\"title\":\"ngx5-141访问区域分布图\",\"type\":\"tile_map\",\"params\":{\"addTooltip\":true,\"heatBlur\":15,\"heatMaxZoom\":16,\"heatMinOpacity\":0.1,\"heatNormalizeData\":true,\"heatRadius\":25,\"isDesaturated\":true,\"legendPosition\":\"topright\",\"mapCenter\":[15,5],\"mapType\":\"Scaled Circle Markers\",\"mapZoom\":2,\"wms\":{\"enabled\":false,\"options\":{\"attribution\":\"Maps provided by USGS\",\"format\":\"image/png\",\"layers\":\"0\",\"styles\":\"\",\"transparent\":true,\"version\":\"1.3.0\"},\"url\":\"https://basemap.nationalmap.gov/arcgis/services/USGSTopo/MapServer/WMSServer\"}},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"ngx5-141客户端访问分布图\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"geohash_grid\",\"schema\":\"segment\",\"params\":{\"field\":\"geoip.location\",\"autoPrecision\":true}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"mapCenter\":[28.998531814051795,117.59765625],\"mapZoom\":4}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"[filebeat-ngx5-141-]YYYY.MM.DD\",\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"*\"}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "527c1620-35eb-11e7-9ce3-292960a8b541",
+    "_type": "visualization",
+    "_source": {
+      "title": "ngx5-141响应时间分布图",
+      "visState": "{\"title\":\"ngx5-141响应时间分布图\",\"type\":\"heatmap\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"enableHover\":true,\"legendPosition\":\"right\",\"times\":[],\"colorsNumber\":5,\"colorSchema\":\"Greens\",\"setColorRange\":false,\"colorsRange\":[{\"from\":0,\"to\":0.001},{\"from\":0.001,\"to\":0.1},{\"from\":0.1,\"to\":0.5},{\"from\":0.5,\"to\":1},{\"from\":1,\"to\":10},{\"from\":10,\"to\":60}],\"invertColors\":false,\"percentageMode\":false,\"valueAxes\":[{\"show\":false,\"id\":\"ValueAxis-1\",\"type\":\"value\",\"scale\":{\"type\":\"linear\",\"defaultYExtents\":false},\"labels\":{\"show\":true,\"rotate\":270,\"color\":\"#555\"}}]},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"响应时间统计\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"range\",\"schema\":\"segment\",\"params\":{\"field\":\"responsetime\",\"ranges\":[{\"from\":0,\"to\":0.1},{\"from\":0.1,\"to\":0.3},{\"from\":0.3,\"to\":0.5},{\"from\":0.5,\"to\":1},{\"from\":1,\"to\":10},{\"from\":10,\"to\":60},{\"from\":60,\"to\":300}],\"customLabel\":\"响应时范围\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"defaultColors\":{\"0 - 180000\":\"rgb(247,252,245)\",\"180000 - 360000\":\"rgb(211,238,205)\",\"360000 - 540000\":\"rgb(152,213,148)\",\"540000 - 720000\":\"rgb(75,176,98)\",\"720000 - 900000\":\"rgb(21,127,59)\"}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"[filebeat-ngx5-141-]YYYY.MM.DD\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "3161d180-3566-11e7-ac16-1f559e203510",
+    "_type": "visualization",
+    "_source": {
+      "title": "ngx6-10访问区域分布图",
+      "visState": "{\"title\":\"ngx6-10访问区域分布图\",\"type\":\"tile_map\",\"params\":{\"addTooltip\":true,\"heatBlur\":15,\"heatMaxZoom\":16,\"heatMinOpacity\":0.1,\"heatNormalizeData\":true,\"heatRadius\":25,\"isDesaturated\":true,\"legendPosition\":\"topright\",\"mapCenter\":[15,5],\"mapType\":\"Scaled Circle Markers\",\"mapZoom\":2,\"wms\":{\"enabled\":false,\"options\":{\"attribution\":\"Maps provided by USGS\",\"format\":\"image/png\",\"layers\":\"0\",\"styles\":\"\",\"transparent\":true,\"version\":\"1.3.0\"},\"url\":\"https://basemap.nationalmap.gov/arcgis/services/USGSTopo/MapServer/WMSServer\"}},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"ngx6-10客户端访问分布图\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"geohash_grid\",\"schema\":\"segment\",\"params\":{\"field\":\"geoip.location\",\"autoPrecision\":true}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"mapCenter\":[28.998531814051795,117.59765625],\"mapZoom\":4}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"[filebeat-ngx6-10-]YYYY.MM.DD\",\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"*\"}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "e305e310-35eb-11e7-9ce3-292960a8b510",
+    "_type": "visualization",
+    "_source": {
+      "title": "ngx6-10源站统计饼状图",
+      "visState": "{\"title\":\"ngx6-10源站统计饼状图\",\"type\":\"pie\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"源站分布饼状图\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"upstreamhost.raw\",\"size\":100,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"[filebeat-ngx6-10-]YYYY.MM.DD\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "a3fbcdd0-35e9-11e7-9ce3-292960a8b5d2",
+    "_type": "visualization",
+    "_source": {
+      "title": "ngx1-135 city top30",
+      "visState": "{\"title\":\"ngx1-135 city top30\",\"type\":\"histogram\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"scale\":\"linear\",\"mode\":\"stacked\",\"times\":[],\"addTimeMarker\":false,\"defaultYExtents\":false,\"setYExtents\":false,\"orderBucketsBySum\":true},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"城市访问次数\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"geoip.city_name.keyword\",\"size\":30,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"城市访问统计图\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"[filebeat-ngx1-135-]YYYY.MM.DD\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "a3fbcdd0-35e9-11e7-9ce3-292960a8b541",
+    "_type": "visualization",
+    "_source": {
+      "title": "ngx5-141 city top30",
+      "visState": "{\"title\":\"ngx5-141 city top30\",\"type\":\"histogram\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"scale\":\"linear\",\"mode\":\"stacked\",\"times\":[],\"addTimeMarker\":false,\"defaultYExtents\":false,\"setYExtents\":false,\"orderBucketsBySum\":true},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"城市访问次数\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"geoip.city_name.keyword\",\"size\":30,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"城市访问统计图\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"[filebeat-ngx5-141-]YYYY.MM.DD\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "a3fbcdd0-35e9-11e7-9ce3-292960a8b598",
+    "_type": "visualization",
+    "_source": {
+      "title": "ngx2-98 city top30",
+      "visState": "{\"title\":\"ngx2-98 city top30\",\"type\":\"histogram\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"scale\":\"linear\",\"mode\":\"stacked\",\"times\":[],\"addTimeMarker\":false,\"defaultYExtents\":false,\"setYExtents\":false,\"orderBucketsBySum\":true},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"城市访问次数\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"geoip.city_name.keyword\",\"size\":30,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"城市访问统计图\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"[filebeat-ngx2-98-]YYYY.MM.DD\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "a3fbcdd0-35e9-11e7-9ce3-292960a8b562",
+    "_type": "visualization",
+    "_source": {
+      "title": "ngx3-62 city top30",
+      "visState": "{\"title\":\"ngx3-62 city top30\",\"type\":\"histogram\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"scale\":\"linear\",\"mode\":\"stacked\",\"times\":[],\"addTimeMarker\":false,\"defaultYExtents\":false,\"setYExtents\":false,\"orderBucketsBySum\":true},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"城市访问次数\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"geoip.city_name.keyword\",\"size\":30,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"城市访问统计图\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"[filebeat-ngx3-62-]YYYY.MM.DD\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "a3fbcdd0-35e9-11e7-9ce3-292960a8b586",
+    "_type": "visualization",
+    "_source": {
+      "title": "ngx4-86 city top30",
+      "visState": "{\"title\":\"ngx4-86 city top30\",\"type\":\"histogram\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"scale\":\"linear\",\"mode\":\"stacked\",\"times\":[],\"addTimeMarker\":false,\"defaultYExtents\":false,\"setYExtents\":false,\"orderBucketsBySum\":true},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"城市访问次数\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"geoip.city_name.keyword\",\"size\":30,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"城市访问统计图\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"[filebeat-ngx4-86-]YYYY.MM.DD\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "a3fbcdd0-35e9-11e7-9ce3-292960a8b510",
+    "_type": "visualization",
+    "_source": {
+      "title": "ngx6-10 city top30",
+      "visState": "{\"title\":\"ngx6-10 city top30\",\"type\":\"histogram\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"scale\":\"linear\",\"mode\":\"stacked\",\"times\":[],\"addTimeMarker\":false,\"defaultYExtents\":false,\"setYExtents\":false,\"orderBucketsBySum\":true},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"城市访问次数\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"geoip.city_name.keyword\",\"size\":30,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"城市访问统计图\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"[filebeat-ngx6-10-]YYYY.MM.DD\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "e3a08bf0-3568-11e7-ac16-1f559e2035bf",
+    "_type": "visualization",
+    "_source": {
+      "title": "ngx1-135带宽图",
+      "visState": "{\"title\":\"ngx1-135带宽图\",\"type\":\"line\",\"params\":{\"addLegend\":true,\"addTimeMarker\":false,\"addTooltip\":true,\"defaultYExtents\":false,\"drawLinesBetweenPoints\":true,\"interpolate\":\"linear\",\"legendPosition\":\"right\",\"orderBucketsBySum\":false,\"radiusRatio\":9,\"scale\":\"linear\",\"setYExtents\":false,\"showCircles\":true,\"times\":[]},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"size\",\"json\":\"{ \\\"script\\\" : \\\"doc['size'].value /60\\\" }\",\"customLabel\":\"单位BPS\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"@timestamp\",\"interval\":\"m\",\"customInterval\":\"1m\",\"min_doc_count\":1,\"extended_bounds\":{},\"customLabel\":\"\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"spy\":{\"mode\":{\"name\":null,\"fill\":false}},\"vis\":{\"legendOpen\":true}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"[filebeat-ngx1-135-]YYYY.MM.DD\",\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"*\"}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "e3a08bf0-3568-11e7-ac16-1f559e203562",
+    "_type": "visualization",
+    "_source": {
+      "title": "ngx3-62带宽图",
+      "visState": "{\"title\":\"ngx3-62带宽图\",\"type\":\"line\",\"params\":{\"addLegend\":true,\"addTimeMarker\":false,\"addTooltip\":true,\"defaultYExtents\":false,\"drawLinesBetweenPoints\":true,\"interpolate\":\"linear\",\"legendPosition\":\"right\",\"radiusRatio\":9,\"scale\":\"linear\",\"setYExtents\":false,\"showCircles\":true,\"times\":[]},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"size\",\"json\":\"{ \\\"script\\\" : \\\"doc['size'].value /60\\\" }\",\"customLabel\":\"单位BPS\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"@timestamp\",\"interval\":\"m\",\"customInterval\":\"1m\",\"min_doc_count\":1,\"extended_bounds\":{},\"customLabel\":\"\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"[filebeat-ngx3-62-]YYYY.MM.DD\",\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"*\"}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "fcbed8a0-35e8-11e7-9ce3-292960a8b5d2",
+    "_type": "visualization",
+    "_source": {
+      "title": "ngx1-135 访问统计",
+      "visState": "{\"title\":\"ngx1-135 访问统计\",\"type\":\"metric\",\"params\":{\"handleNoResults\":true,\"fontSize\":60},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"访问次数统计\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"size\",\"customLabel\":\"访问流量统计\"}},{\"id\":\"3\",\"enabled\":true,\"type\":\"cardinality\",\"schema\":\"metric\",\"params\":{\"field\":\"http_host.raw\",\"customLabel\":\"访问域名统计\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"[filebeat-ngx1-135-]YYYY.MM.DD\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "fcbed8a0-35e8-11e7-9ce3-292960a8b598",
+    "_type": "visualization",
+    "_source": {
+      "title": "ngx2-98 访问统计",
+      "visState": "{\"title\":\"ngx2-98 访问统计\",\"type\":\"metric\",\"params\":{\"handleNoResults\":true,\"fontSize\":60},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"访问次数统计\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"size\",\"customLabel\":\"访问流量统计\"}},{\"id\":\"3\",\"enabled\":true,\"type\":\"cardinality\",\"schema\":\"metric\",\"params\":{\"field\":\"http_host.raw\",\"customLabel\":\"访问域名统计\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"[filebeat-ngx2-98-]YYYY.MM.DD\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "fcbed8a0-35e8-11e7-9ce3-292960a8b562",
+    "_type": "visualization",
+    "_source": {
+      "title": "ngx3-62 访问统计",
+      "visState": "{\"title\":\"ngx3-62 访问统计\",\"type\":\"metric\",\"params\":{\"handleNoResults\":true,\"fontSize\":60},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"访问次数统计\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"size\",\"customLabel\":\"访问流量统计\"}},{\"id\":\"3\",\"enabled\":true,\"type\":\"cardinality\",\"schema\":\"metric\",\"params\":{\"field\":\"http_host.raw\",\"customLabel\":\"访问域名统计\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"[filebeat-ngx3-62-]YYYY.MM.DD\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "e3a08bf0-3568-11e7-ac16-1f559e203541",
+    "_type": "visualization",
+    "_source": {
+      "title": "ngx5-141带宽图",
+      "visState": "{\"title\":\"ngx5-141带宽图\",\"type\":\"line\",\"params\":{\"addLegend\":true,\"addTimeMarker\":false,\"addTooltip\":true,\"defaultYExtents\":false,\"drawLinesBetweenPoints\":true,\"interpolate\":\"linear\",\"legendPosition\":\"right\",\"radiusRatio\":9,\"scale\":\"linear\",\"setYExtents\":false,\"showCircles\":true,\"times\":[]},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"size\",\"json\":\"{ \\\"script\\\" : \\\"doc['size'].value /60\\\" }\",\"customLabel\":\"单位BPS\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"@timestamp\",\"interval\":\"m\",\"customInterval\":\"1m\",\"min_doc_count\":1,\"extended_bounds\":{},\"customLabel\":\"\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"legendOpen\":false}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"[filebeat-ngx5-141-]YYYY.MM.DD\",\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"*\"}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "e3a08bf0-3568-11e7-ac16-1f559e203586",
+    "_type": "visualization",
+    "_source": {
+      "title": "ngx4-86带宽图",
+      "visState": "{\"title\":\"ngx4-86带宽图\",\"type\":\"line\",\"params\":{\"addLegend\":true,\"addTimeMarker\":false,\"addTooltip\":true,\"defaultYExtents\":false,\"drawLinesBetweenPoints\":true,\"interpolate\":\"linear\",\"legendPosition\":\"right\",\"radiusRatio\":9,\"scale\":\"linear\",\"setYExtents\":false,\"showCircles\":true,\"times\":[]},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"size\",\"json\":\"{ \\\"script\\\" : \\\"doc['size'].value /60\\\" }\",\"customLabel\":\"单位BPS\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"@timestamp\",\"interval\":\"m\",\"customInterval\":\"1m\",\"min_doc_count\":1,\"extended_bounds\":{},\"customLabel\":\"\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"legendOpen\":false}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"[filebeat-ngx4-86-]YYYY.MM.DD\",\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"*\"}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "e3a08bf0-3568-11e7-ac16-1f559e203598",
+    "_type": "visualization",
+    "_source": {
+      "title": "ngx2-98带宽图",
+      "visState": "{\"title\":\"ngx2-98带宽图\",\"type\":\"line\",\"params\":{\"addLegend\":true,\"addTimeMarker\":false,\"addTooltip\":true,\"defaultYExtents\":false,\"drawLinesBetweenPoints\":true,\"interpolate\":\"linear\",\"legendPosition\":\"right\",\"radiusRatio\":9,\"scale\":\"linear\",\"setYExtents\":false,\"showCircles\":true,\"times\":[]},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"size\",\"json\":\"{ \\\"script\\\" : \\\"doc['size'].value /60\\\" }\",\"customLabel\":\"单位BPS\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"@timestamp\",\"interval\":\"m\",\"customInterval\":\"1m\",\"min_doc_count\":1,\"extended_bounds\":{},\"customLabel\":\"\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"[filebeat-ngx2-98-]YYYY.MM.DD\",\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"*\"}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "fcbed8a0-35e8-11e7-9ce3-292960a8b541",
+    "_type": "visualization",
+    "_source": {
+      "title": "ngx5-141 访问统计",
+      "visState": "{\"title\":\"ngx5-141 访问统计\",\"type\":\"metric\",\"params\":{\"handleNoResults\":true,\"fontSize\":60},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"访问次数统计\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"size\",\"customLabel\":\"访问流量统计\"}},{\"id\":\"3\",\"enabled\":true,\"type\":\"cardinality\",\"schema\":\"metric\",\"params\":{\"field\":\"http_host.raw\",\"customLabel\":\"访问域名统计\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"[filebeat-ngx5-141-]YYYY.MM.DD\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "fcbed8a0-35e8-11e7-9ce3-292960a8b586",
+    "_type": "visualization",
+    "_source": {
+      "title": "ngx4-86 访问统计",
+      "visState": "{\"title\":\"ngx4-86 访问统计\",\"type\":\"metric\",\"params\":{\"handleNoResults\":true,\"fontSize\":60},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"访问次数统计\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"size\",\"customLabel\":\"访问流量统计\"}},{\"id\":\"3\",\"enabled\":true,\"type\":\"cardinality\",\"schema\":\"metric\",\"params\":{\"field\":\"http_host.raw\",\"customLabel\":\"访问域名统计\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"[filebeat-ngx4-86-]YYYY.MM.DD\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "e3a08bf0-3568-11e7-ac16-1f559e203510",
+    "_type": "visualization",
+    "_source": {
+      "title": "ngx6-10带宽图",
+      "visState": "{\"title\":\"ngx6-10带宽图\",\"type\":\"line\",\"params\":{\"addLegend\":true,\"addTimeMarker\":false,\"addTooltip\":true,\"defaultYExtents\":false,\"drawLinesBetweenPoints\":true,\"interpolate\":\"linear\",\"legendPosition\":\"right\",\"radiusRatio\":9,\"scale\":\"linear\",\"setYExtents\":false,\"showCircles\":true,\"times\":[]},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"size\",\"json\":\"{ \\\"script\\\" : \\\"doc['size'].value /60\\\" }\",\"customLabel\":\"单位BPS\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"@timestamp\",\"interval\":\"m\",\"customInterval\":\"1m\",\"min_doc_count\":1,\"extended_bounds\":{},\"customLabel\":\"\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"legendOpen\":false}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"[filebeat-ngx6-10-]YYYY.MM.DD\",\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"*\"}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "ae3b9d50-3ed8-11e7-926a-cb831e8667f9",
+    "_type": "visualization",
+    "_source": {
+      "title": "前端总流量",
+      "visState": "{\"title\":\"前端总流量\",\"type\":\"line\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"showCircles\":true,\"interpolate\":\"linear\",\"scale\":\"linear\",\"drawLinesBetweenPoints\":true,\"radiusRatio\":9,\"times\":[],\"addTimeMarker\":false,\"defaultYExtents\":false,\"setYExtents\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"size\",\"json\":\"{ \\\"script\\\" : \\\"doc['size'].value /60\\\" }\",\"customLabel\":\"单位BPS\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"@timestamp\",\"interval\":\"m\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{}}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"filebeat-*\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "9ec65be0-3ed7-11e7-926a-cb831e8667f9",
+    "_type": "visualization",
+    "_source": {
+      "title": "前端总信息统计",
+      "visState": "{\"title\":\"前端总信息统计\",\"type\":\"metric\",\"params\":{\"handleNoResults\":true,\"fontSize\":\"36\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"前端总访问次数\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"size\",\"customLabel\":\"前端总流量\"}},{\"id\":\"3\",\"enabled\":true,\"type\":\"cardinality\",\"schema\":\"metric\",\"params\":{\"field\":\"http_host.raw\",\"customLabel\":\"前端总域名\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"filebeat-*\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "fcbed8a0-35e8-11e7-9ce3-292960a8b510",
+    "_type": "visualization",
+    "_source": {
+      "title": "ngx6-10 访问统计",
+      "visState": "{\"title\":\"ngx6-10 访问统计\",\"type\":\"metric\",\"params\":{\"handleNoResults\":true,\"fontSize\":60},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"访问次数统计\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"size\",\"customLabel\":\"访问流量统计\"}},{\"id\":\"3\",\"enabled\":true,\"type\":\"cardinality\",\"schema\":\"metric\",\"params\":{\"field\":\"http_host.raw\",\"customLabel\":\"访问域名统计\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"[filebeat-ngx6-10-]YYYY.MM.DD\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "676298b0-3aa1-11e7-9d2d-29058a2eb7f6",
+    "_type": "visualization",
+    "_source": {
+      "title": "前端请求数趋势图",
+      "visState": "{\"title\":\"前端请求数趋势图\",\"type\":\"timelion\",\"params\":{\"expression\":\".es(*).label(\\\"请求数趋势图\\\")\",\"interval\":\"auto\"},\"aggs\":[],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "130578e0-35e8-11e7-9ce3-292960a8b5d2",
+    "_type": "visualization",
+    "_source": {
+      "title": "ngx1-135 url top100",
+      "visState": "{\"title\":\"ngx1-135 url top100\",\"type\":\"table\",\"params\":{\"perPage\":20,\"showMeticsAtAllLevels\":false,\"showPartialRows\":false,\"showTotal\":true,\"sort\":{\"columnIndex\":null,\"direction\":null},\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"url top100\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"url.raw\",\"size\":100,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":2,\"direction\":\"desc\"}}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"[filebeat-ngx1-135-]YYYY.MM.DD\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "130578e0-35e8-11e7-9ce3-292960a8b562",
+    "_type": "visualization",
+    "_source": {
+      "title": "ngx3-62 url top100",
+      "visState": "{\"title\":\"ngx3-62 url top100\",\"type\":\"table\",\"params\":{\"perPage\":20,\"showMeticsAtAllLevels\":false,\"showPartialRows\":false,\"showTotal\":true,\"sort\":{\"columnIndex\":null,\"direction\":null},\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"url top100\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"url.raw\",\"size\":100,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":2,\"direction\":\"desc\"}}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"[filebeat-ngx3-62-]YYYY.MM.DD\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "130578e0-35e8-11e7-9ce3-292960a8b598",
+    "_type": "visualization",
+    "_source": {
+      "title": "ngx2-98 url top100",
+      "visState": "{\"title\":\"ngx2-98 url top100\",\"type\":\"table\",\"params\":{\"perPage\":20,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":true,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"url top100\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"url.raw\",\"size\":100,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"[filebeat-ngx2-98-]YYYY.MM.DD\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "130578e0-35e8-11e7-9ce3-292960a8b541",
+    "_type": "visualization",
+    "_source": {
+      "title": "ngx5-141 url top100",
+      "visState": "{\"title\":\"ngx5-141 url top100\",\"type\":\"table\",\"params\":{\"perPage\":20,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":true,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"url top100\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"url.raw\",\"size\":100,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"[filebeat-ngx5-141-]YYYY.MM.DD\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "130578e0-35e8-11e7-9ce3-292960a8b586",
+    "_type": "visualization",
+    "_source": {
+      "title": "ngx4-86 url top100",
+      "visState": "{\"title\":\"ngx4-86 url top100\",\"type\":\"table\",\"params\":{\"perPage\":20,\"showMeticsAtAllLevels\":false,\"showPartialRows\":false,\"showTotal\":true,\"sort\":{\"columnIndex\":null,\"direction\":null},\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"url top100\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"url.raw\",\"size\":100,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":2,\"direction\":\"desc\"}}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"[filebeat-ngx4-86-]YYYY.MM.DD\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "130578e0-35e8-11e7-9ce3-292960a8b510",
+    "_type": "visualization",
+    "_source": {
+      "title": "ngx6-10 url top100",
+      "visState": "{\"title\":\"ngx6-10 url top100\",\"type\":\"table\",\"params\":{\"perPage\":20,\"showMeticsAtAllLevels\":false,\"showPartialRows\":false,\"showTotal\":true,\"sort\":{\"columnIndex\":null,\"direction\":null},\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"url top100\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"url.raw\",\"size\":100,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":2,\"direction\":\"desc\"}}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"[filebeat-ngx6-10-]YYYY.MM.DD\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "029089a0-4bff-11e7-b0d3-8fa3af671ce3",
+    "_type": "visualization",
+    "_source": {
+      "title": "ngx5-141-vip211.151.161.141 domains",
+      "visState": "{\"title\":\"ngx5-141-vip211.151.161.141 domains\",\"type\":\"markdown\",\"params\":{\"markdown\":\"ngx5-141-vip211.151.161.141 domains  \\ngstat.bitauto.com  \\ngstat.yiche.com  \\ng.bitauto.com  \\ng.bitauto.com443  \\ng.yiche.com  \\ngimg.bitauto.com  \\ngimg1.bitautoimg.com  \\ngimg2.bitautoimg.com  \\ngimg3.bitautoimg.com  \\ngimg4.bitautoimg.com  \\nac.sys.bitauto.com  \\nad-admin.bitauto.com  \\ndc.sys.bitauto.com  \\nipr.sys.bitauto.com  \\nkpi.sys.bitauto.com  \\nmj.bitauto.com  \\nzhongbao.yiche.com  \\nim.bitauto.com  \\nim.yiche.com  \\nrt.g.bitauto.com  \\nxxhd.sys.bitauto.com  \\nimg.leche.com  \\nvideo.leche.com  \\nwww.leche.com  \\nibs.leche.com  \\napi.leche.com  \\napi.s.leche.com  \\ng1.yccdn.com  \\nleche.yiche.com  \\nleche.bitauto.com  \\ng.yccdn.com  \\ng.yccdn.com443  \\nadplaydt.bitauto.com  \\nadplayimg.bitauto.com  \\nrt.yccdn.com443  \\nsysapp.bitauto.com  \\nsysapp.bitauto.com443  \\nrt.yccdn.com\"},\"aggs\":[],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"*\"}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "e6b79ee0-41bc-11e7-a884-0355016db498",
+    "_type": "visualization",
+    "_source": {
+      "title": "ngx3-vip-59.151.116.62  domains",
+      "visState": "{\"title\":\"ngx3-vip-59.151.116.62  domains\",\"type\":\"markdown\",\"params\":{\"markdown\":\"ngx3-vip-59.151.116.62  domains  \\n 旺店通配   \\n001.huimaiche.com  \\n001.huimaiche.com443  \\n1111.huimaiche.com  \\n1111.huimaiche.com443  \\n1111.m.huimaiche.com  \\n1111.m.huimaiche.com443  \\n201411market.bitauto.com  \\nact.huimaiche.com  \\nact.huimaiche.com443  \\nadmin.bitauto.com  \\najax.huimaiche.com  \\najax.huimaiche.com443  \\napi11.market.bitauto.com  \\napi2.huimaiche.com  \\napi.admin.bitauto.com  \\napi.broker.yichemall.com  \\napi.driver.yichemall.com  \\napi.fanxian.bitauto.com  \\napi.huimaiche.com  \\napi.huimaiche.com443  \\napi.mallapp.yichemall.com  \\napi.thrid.yichemall.com  \\napi.yichemall.com  \\nappcms.op.bitauto.com  \\nappmsg.api.huimaiche.com  \\napp.op.bitauto.com  \\napp.stat.huimaiche.cn  \\nappstat.huimaiche.cn  \\nappstat.huimaiche.cn443  \\nask.op.bitauto.com  \\nauth.op.huimaiche.biz  \\nauth.op.huimaiche.com  \\nauth.yichemall.com  \\nauth.yichemall.com  \\nautocall.bitauto.com  \\nautocall.bitauto.com443  \\nautocall-peer.bitauto.com  \\nautodb.kunming.cn  \\nauto-price.ynlife.net  \\nautosite.bitauto.com  \\nbbs.qiche4s.cn  \\nbeta.price.bitauto.com  \\nbeta.weixin.api.maiche.biz  \\nbitauto.auto.huanqiu.com  \\nbi.yichemall.com  \\nbizstat.bitauto.com  \\ncardb.op.bitauto.com  \\ncc.huimaiche.com  \\nchezhu.huimaiche.com  \\nchezhu.huimaiche.com443  \\nchezhu.m.huimaiche.com  \\nchinaacf.org  \\ncmsapi.bitauto.com  \\ncmsapi.bitauto.com443  \\ncms.baa.bitauto.com  \\ncms.huimaiche.com  \\ncms.op.huimaiche.biz  \\ncms.op.huimaiche.com  \\ncms.yichemall.com  \\ncrm.api.huimaiche.com  \\ncrm.huimaiche.com  \\ncrm.yichemall.com  \\ndealerad.bitauto.com  \\n*.dealer.bitauto.com  \\ndealer.h5.yiche.com  \\ndealer.huimaiche.com  \\ndetail.huimaiche.com  \\ndetail.m.huimaiche.com  \\ndevbbs.oa.bitauto.com  \\ndriver.yichemall.com  \\ndrive.yichemall.com  \\ndrive.yichemall.com  \\ndsapi.huimaiche.com  \\ndsapi.huimaiche.com443  \\ndt.yiche.com  \\ndt.yiche.com443  \\nepweixin.api.huimaiche.com  \\nerp.op.huimaiche.biz  \\nerp.op.huimaiche.com  \\nerp.yichemall.com  \\nfactory.yichemall.com  \\nfanxian.bitauto.com  \\nfanxian.m.yiche.com  \\nfiles.huimaiche.cn  \\nfinanceapi.yichemall.com  \\nghac.yichemall.com  \\ngift.huimaiche.com  \\ngift.m.huimaiche.com  \\nguwen.huimaiche.com  \\nguwen.m.huimaiche.com  \\nh5.huimaiche.com  \\nh5.huimaiche.com443  \\nhaoche.i.secoo.com  \\nhaoche.secoo.com  \\nhd.huimaiche.com  \\nhd.m.huimaiche.com  \\nhd.m.huimaiche.com443  \\nhelp.huimaiche.com  \\nhelp.m.huimaiche.com  \\nhelp.m.yichemall.com  \\nhelp.yichemall.com  \\nhop.huimaiche.com  \\nhuimaiche.cn  \\n*.huimaiche.com  \\nhuimaiche.com beijing.huimaiche.com city  \\nhuimaiche.com.cn  \\ni.huimaiche.com  \\ni.huimaiche.com443  \\nim.api.huimaiche.com  \\ni.m.chelun.huimaiche.com  \\nim.file.huimaiche.com  \\nimg.yichemall.com  \\ni.m.huimaiche.com  \\ni.m.huimaiche.com443  \\nim.open.huimaiche.com  \\ni.m.ycapp.huimaiche.com  \\ni.m.yiche.com443  \\ni.m.yichemall.com  \\ninc.bitauto.com  \\nitem.huimaiche.com  \\nitem.m.huimaiche.com  \\nitem.m.yichemall.com  \\nitem.yichemall.com  \\njd-car.huimaiche.com  \\njd-car.huimaiche.com443  \\njd-mcar.huimaiche.com  \\njd-mcar.huimaiche.com443  \\njiesuan.op.huimaiche.biz  \\njiesuan.op.huimaiche.com  \\njiesuan.yichemall.com  \\njinkou.huimaiche.com  \\njinkou.m.huimaiche.com  \\njinkou.m.yichemall.com  \\njinkou.yichemall.com  \\njr.api.huimaiche.biz  \\njr.api.huimaiche.com  \\njr.huimaiche.com  \\njr.m.huimaiche.com  \\njr.m.huimaiche.com443  \\njr.m.yichemall.com  \\njr.op.huimaiche.biz  \\njr.op.huimaiche.com  \\njr.yichemall.com  \\nlist.m.yichemall.com  \\nlist.yichemall.com  \\nlog.bitauto.com  \\nlog.bitauto.com443  \\nlogin.dealer.huimaiche.com  \\nm.1111.huimaiche.com  \\nmaishou.yichemall.com  \\nmaishou.yichemall.com  \\nmall.bitauto.com  \\nmallhelp.huimaiche.com  \\nmallhelp.m.huimaiche.com  \\nmap.bitauto.com  \\nmcb.maiche.cn  \\nm.chelun.huimaiche.com  \\nm.crm.huimaiche.com  \\nm.driver.yichemall.com  \\nmelbourne.huimaiche.com  \\nmelbourne.m.huimaiche.com  \\nmerchant.huimaiche.com  \\nm.gift.huimaiche.com  \\nm.h5.qiche4s.cn  \\nm.hd.huimaiche.com  \\nm.huimaiche.com beijing.m.huimaiche.com city  \\nm.melbourne.huimaiche.com  \\nmnew.yichemall.com  \\nmondeo2015.op.yiche.com  \\nmondeo2015.yiche.com  \\nm.op.huimaiche.com  \\nmsapp.yichemall.com  \\nmsg.op.huimaiche.biz  \\nmsg.op.huimaiche.com  \\nmsg.yichemall.com  \\nms.op.huimaiche.biz  \\nms.op.huimaiche.com  \\nms.yichemall.com  \\nm.ycapp.huimaiche.com  \\nm.yichemall.com  \\nm.yichemall.com  \\nmy-ycapp.m.huimaiche.com  \\nmy-ycapp.m.huimaiche.com443  \\nneigou.huimaiche.com  \\nneigou.huimaiche.com443  \\nneigou.m.huimaiche.com  \\nneigou.m.huimaiche.com443  \\nnerp.yichemall.com  \\nnewdealer.bitauto.com  \\nnews.auto.caijing.com.cn  \\nnews.huimaiche.com  \\nnews.m.huimaiche.com  \\nng.m.yichemall.com  \\nngm.yichemall.com  \\nngop.huimaiche.biz  \\nngop.huimaiche.com  \\nng.yiche.com  \\nng.yichemall.com  \\nnop.yichemall.com  \\nop.anti.yiche.com  \\nop.bglog.bitauto.com  \\nop.bitauto.com  \\nop.huimaiche.com  \\nop.i.yiche.com  \\nopm.yichemall.com  \\nop.yichemall.com  \\norder.hui.m.yiche.com  \\norder.hui.yiche.com  \\norder.mall.yiche.com  \\norder.op.huimaiche.biz  \\norder.op.huimaiche.com  \\norder.yichemall.com  \\npartner-api.huimaiche.com  \\npartner.api.huimaiche.com  \\npartner-api.huimaiche.com443  \\npassport-api.huimaiche.com  \\npassport-api.huimaiche.com  \\npassport.huimaiche.com  \\npassport.huimaiche.com443  \\npassport.m.huimaiche.com  \\npassport.m.huimaiche.com443  \\npay2.huimaiche.com  \\npay.huimaiche.com  \\npaymsg.api.huimaiche.com  \\npay.yichemall.com  \\npcnew.yichemall.com  \\nplatform-api.huimaiche.com  \\nplatform.api.huimaiche.com  \\nplatform-api.huimaiche.com443  \\nplatform.huimaiche.com  \\nplatop.huimaiche.com  \\nprice.alibaba.bitauto.com  \\nprice.auto.caijing.com.cn  \\nprice.auto.tom.com  \\nprice.bitauto.com  \\nprice.m.yiche.com  \\npricenotify.api.huimaiche.com  \\nprice.qq.qiche4s.cn  \\nproduct.op.huimaiche.biz  \\nproduct.op.huimaiche.com  \\nproject.op.huimaiche.biz  \\nproject.op.huimaiche.com  \\nproject.yichemall.com  \\nptc.yiche.com  \\nqiche4s.cn  \\nrobot.im.huimaiche.com  \\n*.sandbox.huimaiche.cn  \\nsecurity.op.huimaiche.com  \\nsms.api.huimaiche.com  \\nsouthern-crossing.yiche.com  \\nstatad.huimaiche.cn  \\nstatc.huimaiche.cn  \\nstatc.huimaiche.cn443  \\nstat.huimaiche.cn  \\nstat.huimaiche.cn443  \\nstat.huimaiche.com  \\ntest217.bitauto.com  \\ntest.temai.m.yiche.com  \\ntest.temai.yiche.com  \\ntools.yichemall.com  \\ntopic.huimaiche.com  \\ntrade-api.huimaiche.com  \\ntrade.api.huimaiche.com  \\ntrade-api.huimaiche.com443  \\ntrade.huimaiche.com  \\ntrade.huimaiche.com443  \\ntrade.m.huimaiche.com  \\ntrade.m.huimaiche.com  \\ntrade.m.yichemall.com  \\ntrade.yichemall.com  \\ntuangou.huimaiche.com  \\ntuangou.m.huimaiche.com  \\nunion.huimaiche.com  \\nupdate.huimaiche.com  \\nupdate.huimaiche.com443  \\nuser.api.huimaiche.com  \\nuser.huimaiche.com  \\nuser.huimaiche.com443  \\nweixin2.api.huimaiche.com  \\nweixin-api.huimaiche.com  \\nweixin.api.huimaiche.com  \\nweixin-api.huimaiche.com443  \\nweixin.yichemall.com  \\nwuliu.huimaiche.com  \\nwuliu.op.huimaiche.biz  \\nwuliu.op.huimaiche.com  \\nwww.bhhechengchengbei.com  \\nwww.bi.yichemall.com  \\nwww.cbhonda.com.cn  \\nwww.cddcab.com  \\nwww.chinaacf.org  \\nwww.ekingokia.com  \\nwww.fzruntong.cn  \\nwww.gdroewe.com  \\nwww.hangzhouxiangtong.com  \\nwww.huimaiche.cn  \\nwww.huimaiche.com  \\nwww.huimaiche.com.cn  \\nwww.ltjdsvw.com  \\nwww.qiche4s.cn  \\nwww.shxhbc.cn  \\nwww.whhxcx.com  \\nwww.yichemall.com  \\nwww.yichemall.com  \\nwww.ytcrv.com  \\nwww.ytivw.com  \\nwww.yt-toyota.com  \\nwxapp-api.huimaiche.com  \\nwxapp-api.huimaiche.com443  \\nwxm.yichemall.com  \\nwxpay.huimaiche.com  \\n wxpay.huimaiche.com443  \\nwxpay.yichemall.com  \\nycapi.huimaiche.com  \\nycapp.api.huimaiche.com  \\nycapp.m.huimaiche.com  \\nycapp.m.huimaiche.com443  \\nyichemall.com  \\nyichemall.easypass.cn  \\nyichevip.huimaiche.com  \\nyxt.app.easypass.cn  \\nzhixiao.huimaiche.com  \\nzhixiaolist.huimaiche.com  \\nzhixiaolist.m.huimaiche.com  \\nzhixiao.m.huimaiche.com  \\nzhixiaopay.huimaiche.com  \\nzhixiaopay.m.huimaiche.com  \\nzhixiaotrade.huimaiche.com  \\nzhixiaotrade.m.huimaiche.com  \\nzt.huimaiche.com  \\nzt.m.huimaiche.com  \\nzt.yichemall.com\"},\"aggs\":[],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "08a82fe0-4fe3-11e7-bc83-49879cec6182",
+    "_type": "visualization",
+    "_source": {
+      "title": "前端top500域名汇总表排除淘车图片样式404且为GET总数",
+      "visState": "{\"title\":\"前端top500域名汇总表排除淘车图片样式404且为GET总数\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"http_host.raw\",\"size\":500,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"filebeat-*\",\"query\":{\"bool\":{\"must_not\":[{\"regexp\":{\"url.raw\":\"[a-z]?.*.(gif|jpg|jpeg|png|bmp|swf|js|css|ico)\"}},{\"regexp\":{\"http_host.raw\":\"[a-z]?.*.taoche.(com|cn)\"}},{\"match\":{\"status\":\"404\"}}],\"must\":[{\"query_string\":{\"query\":\"method.keyword:GET\",\"analyze_wildcard\":true}}]}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "823046d0-4f1c-11e7-ab58-efc7443f466f",
+    "_type": "visualization",
+    "_source": {
+      "title": "报警趋势图",
+      "visState": "{\"title\":\"报警趋势图\",\"type\":\"line\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"showCircles\":true,\"interpolate\":\"linear\",\"scale\":\"linear\",\"drawLinesBetweenPoints\":true,\"radiusRatio\":9,\"times\":[],\"addTimeMarker\":false,\"defaultYExtents\":false,\"setYExtents\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"@timestamp\",\"interval\":\"auto\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{}}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"elastalert_status\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "9dfd9610-4f1c-11e7-ab58-efc7443f466f",
+    "_type": "visualization",
+    "_source": {
+      "title": "报警规则TOP图",
+      "visState": "{\"title\":\"报警规则TOP图\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":true,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"rule_name\",\"size\":100,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"elastalert_status\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "d0884210-41bb-11e7-a884-0355016db498",
+    "_type": "visualization",
+    "_source": {
+      "title": "ngx2-vip-59.151.116.98 domains",
+      "visState": "{\"title\":\"ngx2-vip-59.151.116.98 domains\",\"type\":\"markdown\",\"params\":{\"markdown\":\"ngx2-vip-59.151.116.98 domains  \\n100.bitauto.com  \\n100.yiche.com  \\n163.dealer.easypass.cn  \\n3d.bitauto.com  \\n4s.maiche.cn  \\nad.app.yiche.com  \\nad.app.yiche.com443  \\nads.bitauto.com  \\nadvisor.bitauto.com  \\napi.app.yiche.com  \\napi.app.yiche.com443  \\napi.car.bitauto.com  \\napi.cheguwen.com  \\napi.gouche.yiche.com  \\napi.market.bitauto.com  \\napimarket.bitauto.com  \\napimarket.bitauto.com443  \\napipriv.cheguwen.com  \\napi.temai.yiche.com  \\napi.weixin.qiche4s.cn  \\napp.car.yiche.com  \\napp.m.yiche.com  \\napp.yiche.com  \\nauth.cheguwen.com  \\nbaike.bitauto.com  \\nbaike.m.yiche.com  \\nbaoxianapi.bitauto.com  \\nbaoxianapi.bitauto.com  \\nbaoxian.m.yiche.com  \\nbaoxian.yiche.com  \\nbeta.dealer.bitauto.com  \\n*.bitauto.com  \\nbitauto.com  \\nbmw.m.yiche.com  \\nbmw.m.yiche.com443  \\nbmw.yiche.com  \\nbus.bitauto.com  \\ncar.api.taoche.cn  \\ncarapi.ycapp.yiche.com  \\ncar.bitauto.com  \\ncar.m.bitauto.com  \\ncar.m.yiche.com  \\ncarser.bitauto.com  \\ncarstat.bitauto.com  \\ncdn.partner.bitauto.com  \\ncdt.yiche.com  \\ncdt.yiche.com443  \\nchangshang.bitauto.com  \\nchezhan.bitauto.com  \\ncity.bitauto.com  \\ncitychezhan.yiche.com  \\ncorp.bitauto.com  \\ncoupon.api.market.bitauto.com  \\ncss.union.easypass.cn  \\ndata.app.yiche.com  \\ndata.baa.bitauto.com  \\ndatacenter.op.easypass.cn  \\ndatalab.mai.yiche.com  \\ndatalabmai.yiche.com  \\ndatalabmai.yiche.com443  \\ndealer.app.yiche.com  \\ndealerbeta.bitauto.com  \\ndealer.bitauto.com  \\ndealer.bitauto.com443  \\nbitauto.dealer.easypass.cn  \\ndealergroup.bitauto.com  \\ndealer.m.yiche.com  \\ndealer.qq.qiche4s.cn  \\ndingpiao.yiche.com  \\ndownload.app.yiche.com  \\ndxapi.yixin.yiche.com  \\ndx.yixin.yiche.com  \\neasy.bitauto.com  \\neasypass.cn  \\nfiles.cheguwen.com  \\nfiles.cheguwen.com  \\nford.m.yiche.com  \\nford.yiche.com  \\nfriendlink.bitauto.com  \\ngouche.bitauto.com  \\ngouche.com.cn  \\ngouche.m.bitauto.com  \\ngouche.m.yiche.com  \\ngouche.yiche.com  \\ngujia.api.taoche.cn  \\nh5.app.yiche.com  \\nh5.app.yiche.com443  \\nh5ych.m.yiche.com  \\nh5ych.m.yiche.com443  \\nhapimarket.bitauto.com  \\nhapimarket.bitauto.com443  \\nhd.api.market.bitauto.com  \\nhdip.bitauto.com  \\nhdip.yiche.comm  \\nhub.ycapp.yiche.com  \\nhub.ycapp.yiche.com443  \\nhuodong.market.yiche.com  \\nimgsvr.bitauto.com  \\nindex.bitauto.com  \\njiangjia.bitauto.com  \\njiangjia.m.yiche.com  \\njinrong.m.yiche.com  \\njinrong.yiche.com  \\njob.api.market.bitauto.com  \\nkan.bitauto.com  \\nkoubei.bitauto.com  \\nlechego.bitauto.com  \\nlog.app.yiche.com  \\nlog.app.yiche.com443  \\nmaicdn2.bitauto.com  \\n*.maiche.cn  \\nmaiche.dealer.easypass.cn  \\nmanage.market.bitauto.com  \\nmap.dealer.easypass.cn  \\nm.autoreport.cn  \\nm.bitauto.com  \\nmps.yiche.com  \\nm.qiche4s.cn  \\nms.api.mai.yiche.com  \\nmsg.app.yiche.com  \\nmsg.app.yiche.com443  \\nmsn.api.app.yiche.com  \\nmsnapi.app.yiche.com  \\nmsnapi.app.yiche.com443  \\nmsncdn.app.yiche.com  \\nm.yiche.com  \\nnews.app.yiche.com  \\nnews.bitauto.com  \\nnews.h5.yiche.com  \\nnews.m.bitauto.com  \\nnews.m.yiche.com  \\nnews.yiche.com  \\nngcar.yiche.com  \\nngcar.yiche.com443  \\nnov11.cheguwen.com  \\nnov11img.cheguwen.com  \\nnov11web.cheguwen.com  \\noe.market.yiche.com  \\noldphoto.bitauto.com  \\nopchedai.yixin.yiche.com  \\nopenapi.app.yiche.com  \\nopen.app.yiche.com  \\nopen.app.yiche.com443  \\nop.yixin.yiche.com  \\norder.app.yiche.com  \\norder.app.yiche.com443  \\npapimarket.bitauto.com  \\npapimarket.bitauto.com443  \\npartner.app.yiche.com  \\npartner.app.yiche.com443  \\npartner.bitauto.com  \\npartner.bitauto.com443  \\npassport.yiche.com  \\npassport.yiche.com  \\npassport.yixin.yiche.com  \\npay.app.yiche.com  \\npay.app.yiche.com443  \\npcb.app.yiche.com  \\npermission.cheguwen.com  \\nphoto2017.bitauto.com  \\nphoto.bitauto.com  \\nphoto.m.yiche.com  \\npiao.bitauto.com  \\nplatform.cheguwen.com  \\nplatformop.cheguwen.com  \\nplatformpriv.cheguwen.com  \\nplayer.bitauto.com  \\nproduct.api.market.bitauto.com  \\npub.ycapp.yiche.com  \\npub.ycapp.yiche.com443  \\nqqweibo.easypass.cn  \\nres.app.yiche.com  \\nrss.bitauto.com  \\nrtapi.app.yiche.com  \\nrtapi.app.yiche.com443  \\nselect.car.yiche.com  \\nsinaweibo.easypass.cn  \\nso.app.yiche.com  \\nstatic.union.easypass.cn  \\ntaoche.app.yiche.com  \\ntemai.bitauto.com  \\ntemai.m.yiche.com  \\ntemai.yiche.com  \\ntest.bitauto.com  \\ntest.mai.bitauto.com  \\ntest.mai.m.yiche.com  \\ntest.mai.yiche.com  \\ntestmai.yiche.com  \\ntestmai.yiche.com443  \\ntuangou.bitauto.com  \\ntuangou.m.yiche.com  \\ntuangou.m.yiche.com443  \\nuec.yiche.com  \\nued.bitauto.com  \\nuse.bitauto.com  \\nuserapi.ycapp.yiche.com  \\nuserapi.ycapp.yiche.com443  \\nv.bitauto.com  \\nv.m.yiche.com  \\nweb.app.yiche.com  \\nweixin.app.yiche.com  \\nw.qiche4s.cn  \\nws.ycapp.yiche.com  \\nws.ycapp.yiche.com443  \\nwts.dealer.easypass.cn  \\nwww.autoreport.cn  \\nwww.bitauto.com  \\nwww.bitcar.com  \\nwww.chinaauto60.org  \\nwww.easypass.cn  \\nwww.gouche.com.cn  \\nwww.yiche.cn  \\nwww.yiche.com  \\nwww.yiche.com443  \\nwxs.app.yiche.com  \\nych.market.yiche.com  \\nyiche.cn  \\nyiche.com  \\n*.yixin.yiche.com  \\nyixin.yiche.com  \\nyxmonitor.yiche.com  \\nzhishu.bitauto.com  \\n[root@kafka237 ~]#\"},\"aggs\":[],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "bad5ea30-46ac-11e7-b218-e989f950d035",
+    "_type": "visualization",
+    "_source": {
+      "title": "前端top500域名top5ur汇总表排除淘车图片样式404且为GET",
+      "visState": "{\"title\":\"前端top500域名top5ur汇总表排除淘车图片样式404且为GET\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showMeticsAtAllLevels\":false,\"showPartialRows\":false,\"showTotal\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"http_host.raw\",\"size\":500,\"order\":\"desc\",\"orderBy\":\"1\"}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"url.raw\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"spy\":{\"mode\":{\"name\":null,\"fill\":false}},\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"filebeat-*\",\"query\":{\"bool\":{\"must_not\":[{\"regexp\":{\"url.raw\":\"[a-z]?.*.(gif|jpg|jpeg|png|bmp|swf|js|css|ico)\"}},{\"regexp\":{\"http_host.raw\":\"[a-z]?.*.taoche.(com|cn)\"}},{\"match\":{\"status\":\"404\"}}],\"must\":[{\"query_string\":{\"query\":\"method.keyword:GET\",\"analyze_wildcard\":true}}]}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "5a679150-4bff-11e7-b0d3-8fa3af671ce3",
+    "_type": "visualization",
+    "_source": {
+      "title": "ngx6-10-vip192.168.0.10 及京东域名",
+      "visState": "{\"title\":\"ngx6-10-vip192.168.0.10 及京东域名\",\"type\":\"markdown\",\"params\":{\"markdown\":\"ngx6-10-vip192.168.0.10及京东域名  \\ndealer.api.taoche.cn  \\nappintra.api.taoche.cn  \\nsms.api.taoche.cn  \\nmcar.taoche.cn  \\ncpcapi.taoche.cn  \\nbilling.api.taoche.cn  \\nb-intra.api.taoche.cn  \\ncpc.api.taoche.cn  \\nweb.api.taoche.cn  \\nbangmai.api.taoche.cn  \\nyidaapi.taoche.cn  \\ninner.api.easypass.cn  \\nes.ycapp.yiche.com  \\ninterior.webapi.cz.yiche.com  \\ninnerapi.easypass.cn  \\ninnerapi.easypass.cn443  \\nauth.api.taoche.cn  \\nappcodis.taoche.cn  \\nkafaka.ycapp.yiche.com  \\ncc.api.taoche.cn  \\nsyncnp.dealer.bitauto.com  \\nhsc.api.easypass.cn  \\nconsul.ycapp.yiche.com  \\ncmsapi.internal.yiche.com  \\nolc.internal.yiche.com  \\napi.jd.yiche.com    \\napi-jd.yichemall.com  \\ncar.jd.com  \\ninterapi.jd.yiche.com  \\njd.bitautoimg.com  \\nm.car.jd.com  \\nop-jd.yichemall.com\"},\"aggs\":[],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"*\"}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "bdebfea0-5a46-11e7-bb05-4189596ddc18",
+    "_type": "visualization",
+    "_source": {
+      "title": "ngx-shm-vip 223.202.210.38 domains",
+      "visState": "{\"title\":\"ngx-shm-vip 223.202.210.38 domains\",\"type\":\"markdown\",\"params\":{\"markdown\":\"ngx-shm-vip 223.202.210.38 domains  \\nadx.yiche.com  \\nai.yiche.com  \\na.yiche.com  \\nbigdata.bitauto.com443  \\nbigdata.bitauto.com  \\nbigdataimg.bitauto.com443  \\nbigdataimg.bitauto.com  \\nbigdataimg.yiche.com443  \\nbigdataimg.yiche.com  \\nbigdataobj.bitauto.com443  \\nbigdataobj.bitauto.com  \\nbigdataobj.yiche.com443  \\nbigdataobj.yiche.com  \\nbigdata.yiche.com443  \\nbigdata.yiche.com  \\nd1.yiche.com  \\ndsp.engine.yiche.com  \\ndsp.yiche.com  \\nim.ctags.cn443  \\nim.ctags.cn  \\nint.ctags.cn443  \\nint.ctags.cn  \\nisp.yiche.com  \\nkibanashmngx.yiche.com  \\nopenapi.autodmp.com  \\nrzsj.yiche.com  \\nshouming.fabu.bitautotech.com  \\nssp.yiche.com\"},\"aggs\":[],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"*\"}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "527c1620-35eb-11e7-9ce3-292960a8b517",
+    "_type": "visualization",
+    "_source": {
+      "title": "ngx7-17响应时间分布图",
+      "visState": "{\"title\":\"ngx7-17响应时间分布图\",\"type\":\"heatmap\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"enableHover\":true,\"legendPosition\":\"right\",\"times\":[],\"colorsNumber\":5,\"colorSchema\":\"Greens\",\"setColorRange\":false,\"colorsRange\":[{\"from\":0,\"to\":0.001},{\"from\":0.001,\"to\":0.1},{\"from\":0.1,\"to\":0.5},{\"from\":0.5,\"to\":1},{\"from\":1,\"to\":10},{\"from\":10,\"to\":60}],\"invertColors\":false,\"percentageMode\":false,\"valueAxes\":[{\"show\":false,\"id\":\"ValueAxis-1\",\"type\":\"value\",\"scale\":{\"type\":\"linear\",\"defaultYExtents\":false},\"labels\":{\"show\":true,\"rotate\":270,\"color\":\"#555\"}}]},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"响应时间统计\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"range\",\"schema\":\"segment\",\"params\":{\"field\":\"responsetime\",\"ranges\":[{\"from\":0,\"to\":0.1},{\"from\":0.1,\"to\":0.3},{\"from\":0.3,\"to\":0.5},{\"from\":0.5,\"to\":1},{\"from\":1,\"to\":10},{\"from\":10,\"to\":60},{\"from\":60,\"to\":300}],\"customLabel\":\"响应时范围\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"defaultColors\":{\"0 - 180000\":\"rgb(247,252,245)\",\"180000 - 360000\":\"rgb(211,238,205)\",\"360000 - 540000\":\"rgb(152,213,148)\",\"540000 - 720000\":\"rgb(75,176,98)\",\"720000 - 900000\":\"rgb(21,127,59)\"}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"[filebeat-ngx7-17-]YYYY.MM.DD\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "3161d180-3566-11e7-ac16-1f559e203517",
+    "_type": "visualization",
+    "_source": {
+      "title": "ngx7-17访问区域分布图",
+      "visState": "{\"title\":\"ngx7-17访问区域分布图\",\"type\":\"tile_map\",\"params\":{\"addTooltip\":true,\"heatBlur\":15,\"heatMaxZoom\":16,\"heatMinOpacity\":0.1,\"heatNormalizeData\":true,\"heatRadius\":25,\"isDesaturated\":true,\"legendPosition\":\"topright\",\"mapCenter\":[15,5],\"mapType\":\"Scaled Circle Markers\",\"mapZoom\":2,\"wms\":{\"enabled\":false,\"options\":{\"attribution\":\"Maps provided by USGS\",\"format\":\"image/png\",\"layers\":\"0\",\"styles\":\"\",\"transparent\":true,\"version\":\"1.3.0\"},\"url\":\"https://basemap.nationalmap.gov/arcgis/services/USGSTopo/MapServer/WMSServer\"}},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"ngx7-17客户端访问分布图\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"geohash_grid\",\"schema\":\"segment\",\"params\":{\"field\":\"geoip.location\",\"autoPrecision\":true}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"mapCenter\":[28.998531814051795,117.59765625],\"mapZoom\":4}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"[filebeat-ngx7-17-]YYYY.MM.DD\",\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"*\"}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "8ab3e660-35e8-11e7-9ce3-292960a8b517",
+    "_type": "visualization",
+    "_source": {
+      "title": "ngx7-17 reffer top100",
+      "visState": "{\"title\":\"ngx7-17 reffer top100\",\"type\":\"table\",\"params\":{\"perPage\":20,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":true,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"reffer top100\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"referrer.raw\",\"size\":100,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"[filebeat-ngx7-17-]YYYY.MM.DD\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "e305e310-35eb-11e7-9ce3-292960a8b517",
+    "_type": "visualization",
+    "_source": {
+      "title": "ngx7-17源站统计饼状图",
+      "visState": "{\"title\":\"ngx7-17源站统计饼状图\",\"type\":\"pie\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"源站分布饼状图\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"upstreamhost.raw\",\"size\":100,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"[filebeat-ngx7-17-]YYYY.MM.DD\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "130578e0-35e8-11e7-9ce3-292960a8b517",
+    "_type": "visualization",
+    "_source": {
+      "title": "ngx7-17 url top100",
+      "visState": "{\"title\":\"ngx7-17 url top100\",\"type\":\"table\",\"params\":{\"perPage\":20,\"showMeticsAtAllLevels\":false,\"showPartialRows\":false,\"showTotal\":true,\"sort\":{\"columnIndex\":null,\"direction\":null},\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"url top100\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"url.raw\",\"size\":100,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":2,\"direction\":\"desc\"}}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"[filebeat-ngx7-17-]YYYY.MM.DD\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "e3a08bf0-3568-11e7-ac16-1f559e203517",
+    "_type": "visualization",
+    "_source": {
+      "title": "ngx7-17带宽图",
+      "visState": "{\"title\":\"ngx7-17带宽图\",\"type\":\"line\",\"params\":{\"addLegend\":true,\"addTimeMarker\":false,\"addTooltip\":true,\"defaultYExtents\":false,\"drawLinesBetweenPoints\":true,\"interpolate\":\"linear\",\"legendPosition\":\"right\",\"orderBucketsBySum\":false,\"radiusRatio\":9,\"scale\":\"linear\",\"setYExtents\":false,\"showCircles\":true,\"times\":[]},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"size\",\"json\":\"{ \\\"script\\\" : \\\"doc['size'].value /60\\\" }\",\"customLabel\":\"单位BPS\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"@timestamp\",\"interval\":\"m\",\"customInterval\":\"1m\",\"min_doc_count\":1,\"extended_bounds\":{},\"customLabel\":\"\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"spy\":{\"mode\":{\"name\":null,\"fill\":false}},\"vis\":{\"legendOpen\":true}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"[filebeat-ngx7-17-]YYYY.MM.DD\",\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"*\"}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "f902ab80-355a-11e7-97c2-41b01895d517",
+    "_type": "visualization",
+    "_source": {
+      "title": "ngx7-17访问次数趋势图",
+      "visState": "{\"title\":\"ngx7-17访问次数趋势图\",\"type\":\"area\",\"params\":{\"addLegend\":true,\"addTimeMarker\":false,\"addTooltip\":true,\"defaultYExtents\":false,\"interpolate\":\"linear\",\"legendPosition\":\"right\",\"mode\":\"stacked\",\"scale\":\"linear\",\"setYExtents\":false,\"times\":[],\"orderBucketsBySum\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"ngx7-17访问次数趋势图\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"@timestamp\",\"interval\":\"auto\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{}}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"group\",\"params\":{\"field\":\"http_host.raw\",\"size\":10,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"[filebeat-ngx7-17-]YYYY.MM.DD\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "a3fbcdd0-35e9-11e7-9ce3-292960a8b517",
+    "_type": "visualization",
+    "_source": {
+      "title": "ngx7-17 city top30",
+      "visState": "{\"title\":\"ngx7-17 city top30\",\"type\":\"histogram\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"scale\":\"linear\",\"mode\":\"stacked\",\"times\":[],\"addTimeMarker\":false,\"defaultYExtents\":false,\"setYExtents\":false,\"orderBucketsBySum\":true},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"城市访问次数\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"geoip.city_name.keyword\",\"size\":30,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"城市访问统计图\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"[filebeat-ngx7-17-]YYYY.MM.DD\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "fcbed8a0-35e8-11e7-9ce3-292960a8b517",
+    "_type": "visualization",
+    "_source": {
+      "title": "ngx7-17 访问统计",
+      "visState": "{\"title\":\"ngx7-17 访问统计\",\"type\":\"metric\",\"params\":{\"handleNoResults\":true,\"fontSize\":60},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"访问次数统计\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"size\",\"customLabel\":\"访问流量统计\"}},{\"id\":\"3\",\"enabled\":true,\"type\":\"cardinality\",\"schema\":\"metric\",\"params\":{\"field\":\"http_host.raw\",\"customLabel\":\"访问域名统计\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"[filebeat-ngx7-17-]YYYY.MM.DD\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "b20be480-35eb-11e7-9ce3-292960a8b517",
+    "_type": "visualization",
+    "_source": {
+      "title": "ngx7-17域名统计饼状图",
+      "visState": "{\"title\":\"ngx7-17域名统计饼状图\",\"type\":\"pie\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"域名统计饼状图\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"http_host.raw\",\"size\":100,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"域名统计饼状图\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"[filebeat-ngx7-17-]YYYY.MM.DD\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "ca23ce50-3566-11e7-ac16-1f559e203517",
+    "_type": "visualization",
+    "_source": {
+      "title": "ngx7-17 clientip  top 100",
+      "visState": "{\"title\":\"ngx7-17 clientip  top 100\",\"type\":\"table\",\"params\":{\"perPage\":20,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":true,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"clientip  top100\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"clientRealIp.raw\",\"size\":100,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"[filebeat-ngx7-17-]YYYY.MM.DD\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "d574dce0-35e8-11e7-9ce3-292960a8b517",
+    "_type": "visualization",
+    "_source": {
+      "title": "ngx7-17 agent top100",
+      "visState": "{\"title\":\"ngx7-17 agent top100\",\"type\":\"table\",\"params\":{\"perPage\":20,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":true,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"agent top100\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"agent.raw\",\"size\":100,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"[filebeat-ngx7-17-]YYYY.MM.DD\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "13730c60-3567-11e7-ac16-1f559e203517",
+    "_type": "visualization",
+    "_source": {
+      "title": "ngx7-17 http状态码统计图",
+      "visState": "{\"title\":\"ngx7-17 http状态码统计图\",\"type\":\"pie\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"ngx7-17 http状态码统计图\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"status.raw\",\"size\":20,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"[filebeat-ngx7-17-]YYYY.MM.DD\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "8679b5f0-5fa7-11e7-8783-db83ba9ba1fe",
+    "_type": "visualization",
+    "_source": {
+      "title": "ngx7-17 vip59.151.127.17 domains",
+      "visState": "{\"title\":\"ngx7-17 vip59.151.127.17 domains\",\"type\":\"markdown\",\"params\":{\"markdown\":\"ngx7-17 vip59.151.127.17 domains  \\n css.inc.baa.bitautotech.com; \\n  epbf.bitautoimg.com; \\n  img1.baa.bitautotech.com  img2.baa.bitautotech.com  img3.baa.bitautotech.com  img4.baa.bitautotech.com  pic.baa.bitautotech.com; \\n  img1.bitauto.com img2.bitauto.com \\n img3.bitauto.com img4.bitauto.com  img5.bitauto.com img6.bitauto.com  image.bitauto.com js.bitauto.com  css.bitauto.com; \\n image.bitautoimg.com  img1.bitautoimg.com img2.bitautoimg.com  img3.bitautoimg.com img4.bitautoimg.com; \\n  img.easypass.cn;  \\n  img1.easypass.cn img2.easypass.cn  img3.easypass.cn img4.easypass.cn; \\n  image.huimaiche.cn img.huimaiche.cn  img1.huimaiche.cn img2.huimaiche.cn  js.huimaiche.cn css.huimaiche.cn; \\n  imgsrc.taoche.cn; \\n img1.yixinfinance.com.cn  image.yixinfinance.com.cn; \\n  js.inc.baa.bitautotech.com; \\n 127.0.0.1;  \\n op.dynamic.bitautoimg.com;  \\n opimg.bitautoimg.com; \\n picrecognition.bitautoimg.com; \\n  resource.yichemall.com  resource1.yichemall.com \\n resource2.yichemall.com  resource3.yichemall.com  resource4.yichemall.com  resource5.yichemall.com  resource6.yichemall.com;\"},\"aggs\":[],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "654e3050-3ec2-11e7-b6b5-39c01b39cf77",
+    "_type": "visualization",
+    "_source": {
+      "title": "负载组仪表盘导航",
+      "visState": "{\"title\":\"负载组仪表盘导航\",\"type\":\"markdown\",\"params\":{\"markdown\":\"- ##### [负载组一VIP59.151.102.135](/#/dashboard/51d00230-35ec-11e7-9ce3-292960a8b5d2)\\n- ##### [负载组二VIP59.151.116.98](/#/dashboard/51d00230-35ec-11e7-9ce3-292960a8b598)\\n- ##### [负载组三VIP59.151.116.62](/#/dashboard/51d00230-35ec-11e7-9ce3-292960a8b562)\\n- ##### [负载组四VIP59.151.102.86](/#/dashboard/51d00230-35ec-11e7-9ce3-292960a8b586)\\n- ##### [负载组五VIP211.151.161.141](/#/dashboard/51d00230-35ec-11e7-9ce3-292960a8b541)\\n- ##### [负载组六VIP192.168.0.10](/#/dashboard/51d00230-35ec-11e7-9ce3-292960a8b510)\\n- ##### [负载组七VIP59.151.127.17M5图片源前端](/#/dashboard/51d00230-35ec-11e7-9ce3-292960a8b517)\\n- ##### [负载组八VIP223.202.210.38首鸣前端](http://223.202.210.38:5601/app/kibana#/dashboard/51d00230-35ec-11e7-9ce3-292960a8b538)\\n- ##### [负载组九VIP106.2.21.63首鸣图片源前端](http://223.202.210.38:5601/app/kibana#/dashboard/51d00230-35ec-11e7-9ce3-292960a8b102)\"},\"aggs\":[],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"*\"}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "3982eea0-71b9-11e7-9743-e13cd37f69ef",
+    "_type": "visualization",
+    "_source": {
+      "title": "top200host top20 httpstatus",
+      "visState": "{\"title\":\"top200host top20 httpstatus\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"http_host.raw\",\"size\":200,\"order\":\"desc\",\"orderBy\":\"1\"}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"status.raw\",\"size\":20,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"filebeat-*\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "64c62940-7283-11e7-9928-71eb1deb736a",
+    "_type": "visualization",
+    "_source": {
+      "title": "top200host rang respontime",
+      "visState": "{\"title\":\"top200host rang respontime\",\"type\":\"histogram\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"scale\":\"linear\",\"mode\":\"stacked\",\"times\":[],\"addTimeMarker\":false,\"defaultYExtents\":false,\"setYExtents\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"http_host.raw\",\"size\":200,\"order\":\"desc\",\"orderBy\":\"1\"}},{\"id\":\"3\",\"enabled\":true,\"type\":\"range\",\"schema\":\"group\",\"params\":{\"field\":\"responsetime\",\"ranges\":[{\"from\":0,\"to\":0.1},{\"from\":0.1,\"to\":0.3},{\"from\":0.3,\"to\":0.5},{\"from\":0.5,\"to\":1},{\"from\":1,\"to\":10},{\"from\":10,\"to\":30},{\"from\":30,\"to\":60},{\"from\":60,\"to\":300}]}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"spy\":{\"mode\":{\"name\":\"table\",\"fill\":false}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"filebeat-*\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "ff97d600-71f0-11e7-9743-e13cd37f69ef",
+    "_type": "visualization",
+    "_source": {
+      "title": "top200host percent responsetime",
+      "visState": "{\"title\":\"top200host percent responsetime\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"percentiles\",\"schema\":\"metric\",\"params\":{\"field\":\"responsetime\",\"percents\":[25,50,75,90,95,100]}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"http_host.raw\",\"size\":200,\"orderAgg\":{\"id\":\"2-orderAgg\",\"enabled\":true,\"type\":\"count\",\"schema\":\"orderAgg\",\"params\":{}},\"order\":\"desc\",\"orderBy\":\"custom\"}},{\"id\":\"3\",\"enabled\":true,\"type\":\"avg\",\"schema\":\"metric\",\"params\":{\"field\":\"responsetime\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}},\"spy\":{\"mode\":{\"name\":null,\"fill\":false}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"filebeat-*\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "6d9617b0-825a-11e7-97b7-87943c63b3f9",
+    "_type": "visualization",
+    "_source": {
+      "title": "数据库审计日志帐号分布图",
+      "visState": "{\"title\":\"数据库审计日志帐号分布图\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":true,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"次数统计\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"用户名.keyword\",\"size\":100,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"用户分布\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"monitorbo\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "ce265430-825c-11e7-a219-8d7d59ad19b1",
+    "_type": "visualization",
+    "_source": {
+      "title": "数据库审计日志时间分布图",
+      "visState": "{\"title\":\"数据库审计日志时间分布图\",\"type\":\"area\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"scale\":\"linear\",\"interpolate\":\"linear\",\"mode\":\"stacked\",\"times\":[],\"addTimeMarker\":false,\"defaultYExtents\":false,\"setYExtents\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"时间分布\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"时间\",\"interval\":\"h\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{},\"customLabel\":\"时间趋势\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"monitorbo\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "bc40d940-825f-11e7-a219-8d7d59ad19b1",
+    "_type": "visualization",
+    "_source": {
+      "title": "数据库审计日志结果集分布",
+      "visState": "{\"title\":\"数据库审计日志结果集分布\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"统计次数\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"range\",\"schema\":\"bucket\",\"params\":{\"field\":\"影响行数\",\"ranges\":[{\"from\":100,\"to\":1000},{\"from\":1000,\"to\":10000},{\"from\":10000,\"to\":10000000}],\"customLabel\":\"结果集分布\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":0,\"direction\":\"desc\"}}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"monitorbo\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "1bd9ab10-8ca2-11e7-b42e-2f7da874bb11",
+    "_type": "visualization",
+    "_source": {
+      "title": "经销商智能营销事业部性能指标",
+      "visState": "{\"title\":\"经销商智能营销事业部性能指标\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"3\",\"enabled\":true,\"type\":\"avg\",\"schema\":\"metric\",\"params\":{\"field\":\"responsetime\"}},{\"id\":\"4\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"http_host.raw\",\"size\":20,\"order\":\"desc\",\"orderBy\":\"1\"}},{\"id\":\"5\",\"enabled\":true,\"type\":\"range\",\"schema\":\"bucket\",\"params\":{\"field\":\"responsetime\",\"ranges\":[{\"from\":0,\"to\":1},{\"from\":1,\"to\":600}]}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"filebeat-*\",\"query\":{\"bool\":{\"must\":[{\"regexp\":{\"http_host.raw\":\"(static.union.easypass.cn|api.easypass.cn|cdn.partner.bitauto.com|m.h5.qiche4s.cn|linkapi.easypass.cn|innerapi.easypass.cn|wts.dealer.easypass.cn|price.bitauto.com|price.m.yiche.com|bitauto.dealer.easypass.cn|dealer.bitauto.com|dealer.easypass.cn|m.qiche4s.cn|www.qiche4s.cn|jiangjia.bitauto.com|dealer.m.yiche.com|dealergroup.bitauto.com)\"}}],\"must_not\":[{\"regexp\":{\"url.raw\":\"[a-z]?.*.(gif|jpg|jpeg|png|bmp|swf|js|css|ico)\"}},{\"match\":{\"status.raw\":\"404\"}}]}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "f136d060-864b-11e7-960c-f7a76e7abd4e",
+    "_type": "visualization",
+    "_source": {
+      "title": "按照时间-计算各个url的访问次数",
+      "visState": "{\"title\":\"按照时间-计算各个url的访问次数\",\"type\":\"histogram\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"scale\":\"linear\",\"mode\":\"stacked\",\"times\":[],\"addTimeMarker\":false,\"defaultYExtents\":false,\"setYExtents\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"url访问数\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"@timestamp\",\"interval\":\"h\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{},\"customLabel\":\"时间\"}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"group\",\"params\":{\"field\":\"url.raw\",\"size\":50,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"url\"}},{\"id\":\"4\",\"enabled\":false,\"type\":\"filters\",\"schema\":\"split\",\"params\":{\"filters\":[{\"input\":{\"query\":{\"query_string\":{\"query\":\"status=404\",\"analyze_wildcard\":true}}},\"label\":\"\"},{\"input\":{\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}}}}],\"row\":true}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"spy\":{\"mode\":{\"name\":\"table\",\"fill\":false}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"filebeat-*\",\"query\":{\"query_string\":{\"query\":\"stauts=404\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "c8317920-979b-11e7-8d2a-4704b4a4d916",
+    "_type": "visualization",
+    "_source": {
+      "title": "EPES访问量",
+      "visState": "{\"title\":\"EPES访问量\",\"type\":\"area\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"scale\":\"linear\",\"interpolate\":\"linear\",\"mode\":\"stacked\",\"times\":[],\"addTimeMarker\":false,\"defaultYExtents\":false,\"setYExtents\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"@timestamp\",\"interval\":\"auto\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{}}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"[filebeat-ngx6-10-]YYYY.MM.DD\",\"query\":{\"query_string\":{\"query\":\"es.easypass.cn\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "a8586840-41bd-11e7-a884-0355016db498",
+    "_type": "visualization",
+    "_source": {
+      "title": "ngx4-vip-59.151.102.86 domains",
+      "visState": "{\"title\":\"ngx4-vip-59.151.102.86 domains\",\"type\":\"markdown\",\"params\":{\"markdown\":\"ngx4-vip-59.151.102.86 domains\\n163.bitauto.com  \\n1che1dai.com  \\n360.taoche.com  \\n3g.bitauto.com  \\n4smmc.taoche.com  \\n8chedai.com  \\nadmin.taoche.com  \\nagent.taoche.com  \\najax.taoche.cn  \\naoh.yiche.com  \\napi2.easypass.cn  \\napi.aoh.yiche.com  \\napibaa.bitauto.com  \\napi.chedai.bitauto.com  \\napi.chedai.bitauto.com443  \\napi.dealer.bitauto.com  \\napi.easypass.cn  \\napi.easypass.cn443  \\napi.qcgj.easypass.cn  \\napi.taoche.cn  \\napi.ucar.cn  \\napiwx.taoche.com  \\napiwx.taoche.com443  \\napi.yixin.yiche.com  \\nappapia.taoche.com  \\nappapia.taoche.com443  \\nappapi.taoche.cn  \\nappapi.taoche.com  \\nappapi.taoche.com443  \\nappapitc.taoche.com  \\nappapitc.taoche.com443  \\nappapi.ucar.cn  \\napp.bitauto.com  \\nappbm.taoche.com  \\nappbm.taoche.com443  \\nappdealer.taoche.cn  \\nappdealer.taoche.com  \\nappdealer.taoche.com443  \\napp.easypass.cn  \\napp.m.taoche.com  \\nappop.easypass.cn  \\napp.taoche.com  \\napp.taoche.com443  \\nauthorityadmin.taoche.cn  \\nautosite.app.easypass.cn  \\nbangmai.app.taoche.cn  \\nbangmai.m.taoche.com  \\nbangmai.taoche.com  \\nbaodian.daikuan.com  \\nbaodian.m.daikuan.com  \\nbaoxian.daikuan.com  \\nbaoxian.m.daikuan.com  \\nbeta.cz.yiche.com  \\nbeta.webapi.cz.yiche.com  \\nbo.api.taoche.cn  \\nbuy.bitauto.com  \\ncache.taoche.cn  \\ncache.taoche.com  \\ncarapi.chedai.bitauto.com  \\ncar.h5.yiche.com  \\ncarm.taoche.com  \\ncarnival.m.yiche.com  \\ncc-web.yixincapital.com  \\nche035.com  \\nchebiandai.com  \\n*.chedai.bitauto.com  \\nchedai.bitauto.com  \\nchedaimall.com  \\nchedai.m.yiche.com  \\nchedaizhijia.com  \\nchedaizhushou.com  \\nchedidai.daikuan.com  \\nchedidai.m.daikuan.com  \\nchegaidai.com   \\nchehaodai.com.cn    \\nchehaodai.net    \\nchejiudai.com    \\ncheshen.taoche.com  \\ncheyisou.taoche.com  \\ncms.taoche.com  \\ncnr.taoche.com  \\nco.api.taoche.cn  \\ncooperapp.m.taoche.com  \\ncooper.m.taoche.com  \\ncube.taoche.com  \\ncxt.easypass.cn  \\nczapi.app.yiche.com  \\nczapi.app.yiche.com443  \\ndaiche8.com    \\ndaicheli.com    \\ndaichetong.com    \\ndaikuan.com  \\ndas.app.easypass.cn  \\ndas.bitauto.com  \\ndata.ycapp.yiche.com  \\ndb.taoche.com  \\ndealer.chedai.bitauto.com  \\ndealer.easypass.cn  \\ndealer.easypass.cn443  \\ndealer.taoche.com  \\ndfhonda.taoche.com??  \\ndingche.bitauto.com  \\ndms.taoche.com  \\ndsyx.bitauto.com  \\nershouche.daikuan.com  \\nershouche.h5.yiche.com  \\nershouche.m.daikuan.com  \\nesagg.easypass.cn  \\nesreport.easypass.cn  \\nfaw-vw.taoche.com  \\nfs.chedai.bitauto.com  \\nftms.taoche.com  \\ngac-toyota.taoche.com  \\ngaidaiche.com   \\ngc7c.taoche.com  \\nghac-juc.taoche.com  \\ngmc.bitauto.com  \\ngmc.easypass.cn  \\ngochedai.com?  \\ngolden.bitauto.com  \\ngroup.taoche.com  \\nh5.daikuan.com  \\nh5.ycapp.yiche.com  \\nh5.ycapp.yiche.com443  \\nhaokuaichedai.com  \\nhot.bitauto.com  \\nhuidaiche.com  \\nhuidu.daikuan.com  \\nhuidu.ershouche.daikuan.com  \\nhuidu.m.daikuan.com  \\nhuidu.m.ershouche.daikuan.com  \\ni.daikuan.com  \\ni.daikuan.com443  \\nimageup.taoche.cn  \\ni.m.daikuan.com  \\ni.m.daikuan.com  \\nimport.bitauto.com  \\nindex.m.yiche.com  \\niphone.bitauto.com  \\nis.yiche.com  \\niyiche.com  \\njinkou.bitauto.com  \\njinrong.m.taoche.com  \\njinrong.taoche.com  \\njiudaiche.com   \\nk8s.bitautotech.com  \\nkibana.taoche.com  \\nlease.m.daikuan.com  \\nleeco.cz.yiche.com  \\nlicai.daikuan.com  \\nlicai.m.daikuan.com  \\nlidaiche.com  \\nlinkapi.easypass.cn  \\nlinkapi.easypass.cn443  \\nlink.easypass.cn  \\nlink.easypass.cn443  \\nlink.yiche.com  \\nlink.yiche.com link.yiche.cn link.bitauto.com  \\nlive.m.yiche.com  \\nlive.yiche.com  \\nlms.easypass.cn  \\nlms.easypass.cn443  \\nlog.dealer.bitauto.com  \\nlog.dealer.easypass.cn  \\nlog.taoche.cn  \\nlog.taoche.cn443  \\nlog.ucar.cn  \\nmaichebao.com  \\nmaichejiudai.com  \\nmaiche.taoche.com  \\nmaicheyidai.com  \\nmai.yiche.com  \\nmaop.taoche.com  \\nm.app.taoche.com  \\nm.daikuan.com  \\nm.dealer.taoche.com  \\nmeizu.cz.yiche.com  \\nmemadmin.taoche.com  \\nmessage.easypass.cn  \\nmmc.bitauto.com  \\nmmc.easypass.cn  \\nmobile.bitauto.com \\nmonitor.api.taoche.cn  \\nmonitor.easypass.cn  \\nmonitor.taoche.cn  \\nmq.ycapp.yiche.com  \\nm.shou.taoche.com  \\nmsn.taoche.com  \\nm.starelite.com.cn  \\nm.starelite.com.cn443  \\nm.starelite.taoche.com  \\n*.m.taoche.com  \\nm.taoche.com  \\nmy.bitauto.com  \\nnews.taoche.com  \\nnianhui.yiche.com  \\nnotice.taoche.com  \\nnunit.taoche.com  \\noauth.taoche.cn  \\noauth.taoche.com  \\nop.cz.yiche.com  \\nop.easypass.cn  \\nopenapi.chedai.bitauto.com  \\nopenapp.taoche.cn  \\nop.pay.easypass.cn  \\nop.taoche.com  \\norder.dealer.easypass.cn  \\npangdaerp.taoche.com  \\npartner.chedai.bitauto.com  \\npartner.easypass.cn  \\npartner.easypass.cn443  \\npay.api.taoche.cn  \\npay.easypass.cn  \\npay.yanghu.yiche.com  \\np.easypass.cn  \\npg.taoche.com  \\npingxuan.bitauto.com  \\npolopai.com  \\nqcgjapi.easypass.cn443  \\nqichetong.cn  \\nqichetong.net  \\nqiye.yiche.com  \\nres.chedai.bitauto.com  \\nresource.taoche.com  \\nrmc.easypass.cn  \\nsearch.taoche.com  \\nsec.bitauto.com  \\nsec.bitauto.com  \\nservicebus.easypass.cn  \\nservice.taoche.cn  \\nshop.daikuan.com  \\nshop.m.daikuan.com  \\nshouapp.taoche.cn  \\nshouapp.ucar.cn  \\nshou.taoche.com  \\nsq.daikuan.com  \\nsq.daikuan.com  \\nsq.m.daikuan.com  \\nsq.m.daikuan.com  \\nstarelite.taoche.cn  \\nstarelite.taoche.com  \\nstatic.aoh.bitautoimg.com  \\nstatic.aoh.yiche.com  \\nstatic.carnival.m.yiche.com  \\nsvc.taoche.cn  \\n*.taoche.cn  \\n*.taoche.com  \\ntestapi.weixin.qiche4s.cn  \\ntongjiapi.taoche.com  \\ntongji.taoche.com  \\ntopic.easypass.cn  \\nvendorweb.taoche.com  \\nvolvo.taoche.com  \\nwap.bitauto.com  \\nwebapi.chedai.bitauto.com  \\nwebapi.cz.yiche.com  \\nweichedai.com  \\nwfw.easypass.cn  \\nwfw.easypass.cn443  \\nwireless.bitauto.com  \\nwts.taoche.com  \\nwww.chedaizhijia.com  \\nwww.daikuan.com  \\nwww.gzjw2sc.com  \\nwww.huidaiche.com  \\nwww.iyiche.com  \\nwww.maichebao.com  \\nwww.maxauto.tv  \\nwww.polopai.com  \\nwww.qichetong.cn  \\nwww.qichetong.net  \\nwww.shuguang2car.cn  \\nwww.starelite.com.cn  \\nwww.starelite.com.cn443  \\nwww.taoche.com  \\nwww.weichedai.com  \\nwww.wtyq-vw.com.cn  \\nwww.yixincapital.com  \\nwxadmin.taoche.com  \\nwx.api.taoche.cn  \\nwxapi.taoche.cn  \\nxclp.m.yiche.com  \\nxinche.daikuan.com  \\nxinche.m.daikuan.com  \\nxinyongka.daikuan.com  \\nxinyongka.m.daikuan.com  \\nyanghuapi.yiche.com  \\nyicheapi.taoche.cn  \\nyiche.taoche.com  \\nyidaapi.taoche.com  \\nyida.taoche.com  \\nyixincapital.cn  \\nyixincapital.com  \\nyixincapital.com.cn  \\nyixinchedai.cn  \\nyixinchedai.com  \\nyixinchedai.com.cn  \\nyixinchexian.cn  \\nyixinchexian.com  \\nyixinchexian.com.cn  \\nyixinfinance.cn  \\nyixinfinance.com  \\nyixinfinance.com.cn  \\nyxchexian.com  \\nyxchexian.com.cn  \\nyxt.easypass.cn  \\nyxt.easypass.cn443  \\nyxziben.cn  \\nyxziben.com  \\nyxziben.com.cn  \\nzhihuan.m.taoche.com  \\nzhihuan.taoche.com  \\nzt.daikuan.com  \\nzt.taoche.com\"},\"aggs\":[],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "af9c70f0-41b9-11e7-b86c-25d1d5bdf67f",
+    "_type": "visualization",
+    "_source": {
+      "title": "ngx1-vip-59.151.102.135 domains",
+      "visState": "{\"title\":\"ngx1-vip-59.151.102.135 domains\",\"type\":\"markdown\",\"params\":{\"markdown\":\"ngx1-vip-59.151.102.135 domains  \\n11.m.yiche.com  \\n11.yiche.com  \\naccount.mai.m.yiche.com  \\naccount.mai.m.yiche.com443  \\naccount.mai.yiche.com  \\naccount.mai.yiche.com443  \\nanti.baa.bitauto.com  \\napi.ask.bitauto.com  \\napi.baa.bitauto.com  \\napibaa.bitauto.com443  \\napi.baa.yiche.com  \\napibaa.yiche.com  \\napibaa.yiche.com443  \\napi.bitautotech.com  \\napi.cheyisou.com  \\napicheyisou.yiche.com  \\napicheyisou.yiche.com443  \\napi.club.yiche.com  \\napi.coupon.yiche.com  \\napi.cz.yiche.com  \\napi.i.bitauto.com  \\napi.i.cheyisou.com  \\napi.i.yiche.com  \\napi.koubei.bitauto.com  \\napi.lucky.yiche.com  \\napi.mai.bitauto.com  \\napi.mai.yiche.com  \\napimai.yiche.com  \\napi.photo.bitauto.com  \\napi.robot.yiche.com  \\napi.weixin.yiche.com  \\napi.yanghu.bitauto.com  \\napi.yanghu.yiche.com  \\napi.ycapp.yiche.com  \\napi.yiqishuo.yiche.com  \\napi.zhidao.yiche.com  \\nappapi.ask.bitauto.com  \\napp.i.yiche.com  \\nask.bitauto.com  \\nask.m.bitauto.com  \\nask.m.yiche.com  \\nask.yiche.com  \\naudio.bitautoimg.com  \\nbaa.bitauto.com  \\nbaa.m.bitauto.com  \\nbaa.m.yiche.com  \\nbaoyang.bitauto.com  \\nbeta.yanghu.bitauto.com  \\nbeta.yanghu.m.yiche.com  \\nbeta.yanghu.w.yiche.com  \\nbglog.bitauto.com  \\nbitautourl.com  \\ncheshicitylevel.bitauto.com  \\ncheshiqxlevel.bitauto.com  \\ncheyisou.cn  \\ncheyisou.com  \\ncheyisou.com.cn  \\ncheyouapi.ycapp.yiche.com?  \\nchezhan.m.yiche.com  \\nclub.m.yiche.com  \\nclub.yiche.com  \\ncs.easypass.cn  \\ncss.inc.baa.bitautotech.com  \\ncz.yiche.com  \\ncz.yiche.com443  \\ndata.m.yiche.com  \\nData.zhidao.yiche.com  \\ndl.ycapp.yiche.com  \\nextapi.ycapp.yiche.com  \\ngame.66.m.yiche.com  \\nguanjia.bitauto.com  \\nhd.baa.m.yiche.com  \\nhd.yanghu.yiche.com  \\nhd.ycapp.yiche.com  \\nhd.ycapp.yiche.com443  \\nhsc.easypass.cn  \\nhsc.op.easypass.cn  \\ni.autoreport.cn  \\ni.bitauto.com  \\ni.bitauto.com443  \\ni.cheyisou.com  \\ni.leche.com  \\ni.maichebao.com  \\ni.mai.m.yiche.com  \\ni.mai.m.yiche.com443  \\ni.mai.yiche.com  \\ni.mai.yiche.com443  \\nim.ask.bitauto.com  \\ni.m.yiche.com  \\ninterface.weixin.easypass.cn  \\ninterface.weixintong.easypass.cn  \\nip.bitauto.com  \\nip.bitauto.com443  \\nip.yiche.com  \\nip.yiche.com443  \\ni.qichetong.com  \\ni.taoche.com  \\ni.taoche.com443  \\nitem.mai.bitauto.com  \\nitem.mai.m.yiche.com  \\nitemmai.m.yiche.com  \\nitemmai.m.yiche.com443  \\ni.yanghu.yiche.com  \\ni.yiche.com  \\ni.yiche.com443  \\ni.yichemall.com  \\nj.bitauto.com  \\njiangjia.m.bitauto.com  \\njiaxiao.bitauto.com  \\njiaxiao.qichetong.com  \\njituan.easypass.cn  \\njob.weixin.easypass.cn  \\njs.inc.baa.bitautotech.com  \\njsinc.baa.bitautotech.com  \\njsincbaa.bitautotech.com  \\nkoubei.m.bitauto.com  \\nkoubei.m.yiche.com  \\nkoubei.m.yiche.com443  \\nleche.com  \\nlife.bitauto.com  \\nlistmai.m.yiche.com  \\nlistmai.yiche.com  \\nlog.ycapp.yiche.com  \\nlog.ycapp.yiche.com443  \\nm5.fs.bitautotech.com  \\nmai.bitauto.com  \\nmai.bitautoimg.com  \\nmai.m.yiche.com  \\nmai.m.yiche.com443  \\nm.hsc.easypass.cn  \\nminisiteapi.weixin.easypass.cn  \\nminisite.weixin.easypass.cn  \\nminisite.weixintong.easypass.cn  \\nmobileapi.chefutong.easypass.cn   \\nmp.ycapp.yiche.com  \\nmp.yiche.com  \\nm.qct.huimaiche.com  \\nm.qichetong.com  \\nmsgapi.ask.bitauto.com  \\nmy.baa.bitauto.com  \\nobd.yiche.com  \\nolc.yiche.com  \\norder.mai.bitauto.com  \\norder.mai.m.yiche.com  \\nordermai.m.yiche.com  \\nordermai.m.yiche.com443  \\npassport.qichetong.com  \\npassport.qichetong.com443  \\npay.mai.bitauto.com  \\npay.mai.m.yiche.com  \\npaymai.m.yiche.com  \\npaymai.m.yiche.com443  \\npaytopic.mai.bitauto.com  \\npaytopic.mai.m.yiche.com  \\npaytopic.m.yiche.com  \\npaytopic.m.yiche.com443  \\nphoto.baa.bitauto.com  \\npinyou.ycapp.yiche.com  \\npinyou.ycapp.yiche.com443  \\nprice.m.bitauto.com  \\nqct.huimaiche.com  \\nqichetong.com  \\nraffle.66.m.yiche.com  \\nr.ask.bitauto.com  \\nrobot.ask.bitauto.com  \\nrobot.m.yiche.com  \\nrobot.yiche.com  \\nsapi.ycapp.yiche.com  \\nsapi.ycapp.yiche.com443  \\nsearchapi.ycapp.yiche.com  \\nsearchapi.ycapp.yiche.com443  \\nshangjia.bitauto.com  \\nshops.mai.bitauto.com  \\nshops.mai.m.yiche.com  \\nshopsmai.m.yiche.com  \\nshopsmai.m.yiche.com443  \\nsk.mai.yiche.com\\nsms4vpn.bitauto.com443  \\nso.bitauto.com  \\nso.m.yiche.com  \\nsou.bitauto.com  \\nsports.baa.bitauto.com  \\nsso.daikuan.com  \\nsso.daikuan.com443  \\nsso.yichemall.com  \\ntask.weixin.easypass.cn  \\ntestapi.market.bitauto.com  \\ntest.item.mai.bitauto.com  \\ntest.item.mai.m.yiche.com  \\ntest.order.mai.bitauto.com  \\ntest.order.mai.m.yiche.com  \\ntest.pay.mai.bitauto.com  \\ntest.pay.mai.m.yiche.com  \\ntest.paytopic.mai.bitauto.com  \\ntest.paytopic.mai.m.yiche.com  \\ntest.shops.mai.m.yiche.com  \\ntopic.mai.bitauto.com  \\ntopicmai.yiche.com  \\ntopicmai.yiche.com443  \\nu1.bitauto.com  \\nu2.bitauto.com  \\nunion1.easypass.cn  \\nunion2.easypass.cn  \\nvc.m.yiche.com  \\nvc.yiche.com  \\nv.m.bitauto.com  \\nwebapi.photo.bitauto.com  \\nweixin.easypass.cn  \\nweixinpro.easypass.cn  \\nweixintong.easypass.cn  \\nweixintong.easypass.cn443  \\nweixin.zhidao.yiche.com  \\nweizhang.baa.bitauto.com  \\nwsapi.app.yiche.com  \\nwww.cheyisou.cn  \\nwww.cheyisou.com  \\nwww.cheyisou.com.cn  \\nwww.qichetong.com  \\nwxtzsapi.easypass.cn  \\nwxtzsapi.easypass.cn443  \\nyanghuapi.yiche.com  \\nyanghu.bitauto.com  \\nyanghu.h5.yiche.com  \\nyanghu.m.yiche.com  \\nyanghu.m.yiche.com443  \\nyanghu.w.yiche.com  \\nyanghu.yiche.com  \\nyiqishuo.m.yiche.com  \\nyiqishuo.yiche.com  \\nyjh.bitauto.com  \\nzhidao.yiche.com  \\nzijia.bitauto.com  \\nzijia.leche.com  \\nzijia.yiche.com\"},\"aggs\":[],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "c88eb780-979f-11e7-a412-55d22f8cd3fe",
+    "_type": "visualization",
+    "_source": {
+      "title": "EPES负载情况",
+      "visState": "{\"title\":\"EPES负载情况\",\"type\":\"heatmap\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"enableHover\":false,\"legendPosition\":\"right\",\"times\":[],\"colorsNumber\":4,\"colorSchema\":\"Greens\",\"setColorRange\":false,\"colorsRange\":[{\"from\":0,\"to\":null}],\"invertColors\":true,\"percentageMode\":false,\"valueAxes\":[{\"show\":false,\"id\":\"ValueAxis-1\",\"type\":\"value\",\"scale\":{\"type\":\"linear\",\"defaultYExtents\":false},\"labels\":{\"show\":true,\"rotate\":0,\"color\":\"#555\"}}]},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"upstreamhost.raw\",\"size\":10,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"defaultColors\":{\"0 - 17500\":\"rgb(0,68,27)\",\"17500 - 35000\":\"rgb(35,139,69)\",\"35000 - 52500\":\"rgb(116,196,118)\",\"52500 - 70000\":\"rgb(199,233,192)\"}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"[filebeat-ngx6-10-]YYYY.MM.DD\",\"query\":{\"query_string\":{\"query\":\"es.easypass.cn\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "920a8ee0-979b-11e7-8d2a-4704b4a4d916",
+    "_type": "visualization",
+    "_source": {
+      "title": "EPES平均时长",
+      "visState": "{\"title\":\"EPES平均时长\",\"type\":\"area\",\"params\":{\"addLegend\":true,\"addTimeMarker\":false,\"addTooltip\":true,\"defaultYExtents\":false,\"interpolate\":\"linear\",\"legendPosition\":\"right\",\"mode\":\"stacked\",\"scale\":\"linear\",\"setYExtents\":false,\"times\":[],\"orderBucketsBySum\":false},\"aggs\":[{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"@timestamp\",\"interval\":\"auto\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{},\"customLabel\":\"\"}},{\"id\":\"1\",\"enabled\":true,\"type\":\"avg\",\"schema\":\"metric\",\"params\":{\"field\":\"responsetime\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"spy\":{\"mode\":{\"fill\":false,\"name\":\"table\"}},\"vis\":{\"colors\":{\"Count\":\"#CCA300\",\"Average responsetime\":\"#3F6833\"}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"[filebeat-ngx6-10-]YYYY.MM.DD\",\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"es.easypass.cn\"}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "55a35e10-97a4-11e7-a412-55d22f8cd3fe",
+    "_type": "visualization",
+    "_source": {
+      "title": "EPES最大时长",
+      "visState": "{\"title\":\"EPES最大时长\",\"type\":\"area\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"scale\":\"linear\",\"interpolate\":\"linear\",\"mode\":\"stacked\",\"times\":[],\"addTimeMarker\":false,\"defaultYExtents\":false,\"setYExtents\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"max\",\"schema\":\"metric\",\"params\":{\"field\":\"responsetime\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"@timestamp\",\"interval\":\"auto\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{}}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"[filebeat-ngx6-10-]YYYY.MM.DD\",\"query\":{\"query_string\":{\"query\":\"es.easypass.cn\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "a9d47af0-41ff-11e7-85c7-2b1ef12c4f04",
+    "_type": "visualization",
+    "_source": {
+      "title": "M5前端域名访问次数统计表",
+      "visState": "{\"title\":\"M5前端域名访问次数统计表\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":true,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"访问次数\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"http_host.raw\",\"size\":100000,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"filebeat-*\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  }
+]

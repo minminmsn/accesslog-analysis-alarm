@@ -1,0 +1,35 @@
+name: Host 502 More than 5%
+type: percentage_match
+
+es_host: 192.188.2.213
+es_port: 9200
+
+index: filebeat-*
+description: "5% 502 of all http status in this domain"
+
+buffer_time:
+  minutes: 3
+
+query_key: http_host.raw
+doc_type: 
+
+match_bucket_filter:
+- terms:
+    status: [502]
+
+#min_percentage: 95
+max_percentage: 5
+ 
+alert:
+- "email"
+
+alert_text: "Ref Log http://kibana.minminmsn.com/app/kibana"
+notify_email: admin@minminmsn.com
+from_addr: alert@minminmsn.com
+smtp_host: mail.minminmsn.com
+email_reply_to: alert@minminmsn.com
+smtp_port: 25
+smtp_auth_file: /etc/elastalert/smtp_auth_file.yaml
+email:
+- "admin@minminmsn.com"
+

@@ -1,0 +1,37 @@
+name: 该域名访问时间三分钟大于30s超600次
+
+realert: 
+  minutes: 0
+
+type: frequency
+
+index: filebeat-*
+
+num_events: 600
+
+timeframe:
+  minutes: 3
+
+query_key: http_host.raw
+doc_type: ngx1-135
+use_terms_query: true
+terms_size: 600
+
+filter:
+- query:
+    query_string:
+      query: "responsetime: >30 NOT status.raw:101"  
+
+ 
+alert:
+- "email"
+
+alert_text: "Ref Log http://kibana.minminmsn.com/app/kibana"
+notify_email: admin@minminmsn.com
+from_addr: alert@minminmsn.com
+smtp_host: mail.minminmsn.com
+email_reply_to: alert@minminmsn.com
+smtp_port: 25
+smtp_auth_file: /etc/elastalert/smtp_auth_file.yaml
+email:
+- "admin@minminmsn.com"

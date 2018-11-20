@@ -1,0 +1,35 @@
+name: www.minminmsn.com 3分钟访问量突然增加或减少一倍
+
+type: spike
+
+index: filebeat-*
+
+threshold_cur: 30000
+#threshold_ref: 5
+
+timeframe:
+  minutes: 3
+
+spike_height: 2
+
+spike_type: "both"
+
+filter:
+- query:
+    query_string:
+      query: "http_host.raw: www.minminmsn.com"
+
+use_count_query: true
+doc_type: ngx1-135
+
+- "email"
+
+alert_text: "Ref Log http://kibana.minminmsn.com/app/kibana"
+notify_email: admin@minminmsn.com
+from_addr: alert@minminmsn.com
+smtp_host: mail.minminmsn.com
+email_reply_to: alert@minminmsn.com
+smtp_port: 25
+smtp_auth_file: /etc/elastalert/smtp_auth_file.yaml
+email:
+- "admin@minminmsn.com"

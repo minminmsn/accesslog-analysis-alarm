@@ -1,0 +1,40 @@
+name: 所有域名带宽超过800Mbps
+type: metric_aggregation
+
+index: filebeat-*
+realert: 
+  minutes: 0
+
+buffer_time:
+  minutes: 3
+
+metric_agg_key: size
+metric_agg_type: sum
+query_key: status.raw
+doc_type: 
+  
+bucket_interval:
+  minutes: 3
+  
+sync_bucket_interval: true
+#allow_buffer_time_overlap: true
+#use_run_every_query_size: true
+
+#min_threshold: 22500000
+max_threshold: 18000000000
+
+
+# (Required)
+# The alert is use when a match is found
+alert:
+- "email"
+
+alert_text: "Ref Log http://kibana.minminmsn.com/app/kibana"
+notify_email: admin@minminmsn.com
+from_addr: alert@minminmsn.com
+smtp_host: mail.minminmsn.com
+email_reply_to: alert@minminmsn.com
+smtp_port: 25
+smtp_auth_file: /etc/elastalert/smtp_auth_file.yaml
+email:
+- "admin@minminmsn.com"
